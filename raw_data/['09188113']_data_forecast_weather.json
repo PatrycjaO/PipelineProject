@@ -3,23 +3,9 @@
         "timelines": [
             {
                 "timestep": "1h",
-                "startTime": "2021-10-05T16:00:00Z",
-                "endTime": "2021-10-10T04:00:00Z",
+                "startTime": "2021-10-05T17:00:00Z",
+                "endTime": "2021-10-10T05:00:00Z",
                 "intervals": [
-                    {
-                        "startTime": "2021-10-05T16:00:00Z",
-                        "values": {
-                            "temperature": 32.13,
-                            "temperatureApparent": 40.13,
-                            "dewPoint": 25.63,
-                            "humidity": 69,
-                            "windSpeed": 2.69,
-                            "windDirection": 253.31,
-                            "windGust": 4,
-                            "cloudCover": 50,
-                            "weatherCode": 1101
-                        }
-                    },
                     {
                         "startTime": "2021-10-05T17:00:00Z",
                         "values": {
@@ -107,13 +93,13 @@
                     {
                         "startTime": "2021-10-05T23:00:00Z",
                         "values": {
-                            "temperature": 31.27,
-                            "temperatureApparent": 40.17,
-                            "dewPoint": 26.42,
-                            "humidity": 75.53,
-                            "windSpeed": 1.51,
-                            "windDirection": 190.8,
-                            "windGust": 2.5,
+                            "temperature": 31.14,
+                            "temperatureApparent": 39.98,
+                            "dewPoint": 26.43,
+                            "humidity": 76.14,
+                            "windSpeed": 1.5,
+                            "windDirection": 6.59,
+                            "windGust": 2.52,
                             "cloudCover": 0,
                             "weatherCode": 1000
                         }
@@ -1529,6 +1515,20 @@
                             "windDirection": 24.92,
                             "windGust": 1.49,
                             "cloudCover": 58.21,
+                            "weatherCode": 1101
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T05:00:00Z",
+                        "values": {
+                            "temperature": 29.96,
+                            "temperatureApparent": 34.76,
+                            "dewPoint": 23.71,
+                            "humidity": 69.22,
+                            "windSpeed": 1.5,
+                            "windDirection": 9.2,
+                            "windGust": 1.59,
+                            "cloudCover": 48.61,
                             "weatherCode": 1101
                         }
                     }
