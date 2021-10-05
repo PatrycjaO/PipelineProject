@@ -11,7 +11,8 @@ def location(lookup_tables):
     for col in file:
         locationIDs.append(col['regionID'])
         locations.append(col['region'])
-        lookupDict = dict(zip(locationIDs,locations))
+    lookupDict = dict(zip(locationIDs,locations))
+    print(lookupDict)
     return locationIDs, locations, lookupDict
 
 def urlGeneratorEnergy(regions):
