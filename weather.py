@@ -89,7 +89,7 @@ def writeForecastWeather(dataWeather, files, lookupdict):
 
             expected_output = f"{timestamp},{regionCode},{region},{temperature},{wind_speed},{wind_direction},{wind_gust},{cloud_cover},{weathercode}"
             
-            if int(timestamp) <= int(starttime) + 24 * 60 * 60: #time + 24h for 24h forecast
+            if int(timestamp) < int(starttime) + 24 * 60 * 60: #time + 24h for 24h forecast
                 print(expected_output, file=f)
 
 
