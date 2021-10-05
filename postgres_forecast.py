@@ -39,7 +39,7 @@ def write2database(inputFile):
 
     with open(inputFile, 'r') as f:
         next(f)
-        cursor.copy_from(f, 'energydata', sep=',')
+        cursor.copy_from(f, 'forecastdata', sep=',')
 
     conn.commit()
     cursor.close()
