@@ -26,6 +26,7 @@ def write2database(inputFile):
             "timestamp" integer,
             "regionCode" integer NOT NULL,
             "region" text,
+            "temperature_C" real,
             "wind_speed_m/s" real,
             "wind_direction" real,
             "wind_gust" real,
