@@ -3,6 +3,7 @@ import csv
 import urllib.request
 import re
 
+
 def location(lookup_tables):
     locationIDs = []
     locations = []
@@ -51,45 +52,44 @@ def loadJsonWeather(links, lookupdict):
         lon = re.findall(r',\d*.\d*', url)
         lat = lat[0].replace(',','')
         lon = lon[0].replace(',','')
-        value = list(lat,lon)
-        region_code = [k for k, v in lookupdict.items() if v == value]
+        region_code = [k for k, v in lookupdict.items() if (str(lat) and str(lon)) in v]
         filepath = str(region_code)+'_data_forecast_weather.json'
         filepaths.append(filepath)
         with open('raw_data/%s_data_forecast_weather.json' % region_code, 'w') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
     return parsed_list, filepaths
 
+def writeForecastWeather(dataWeather):
 
+    f = open("monitor_data/daily_weatherforecast.csv", 'w')
 
-def writeCurrentWeather(dataWeather):
+    print("timestamp,temperature,wind_speed,wind_direction,wind_gust,cloud_cover,weathercode", file=f)
 
-    f = open("monitor_data/live_energydata.csv", 'w')
+    for item in dataWeather['data']['timelines'][0]['intervals']:
+        time = item['startTime']
+        temperature = item['values']['temperature']
+        #temperature_apparent = item['values']['temperatureApparent']
+        #dewpoint = item['values']['dewPoint']
+        #humidity = item['values']['humidity']
+        wind_speed = item['values']['windSpeed']
+        wind_direction = item['values']['windDirection']
+        wind_gust = item['values']['windGust']
+        #solar_ghi = item['values']['solarGHI']
+        cloud_cover = item['values']['cloudCover']
+        weathercode = item['values']['weatherCode']
 
-    print("timestamp,regionCode,region,windPower_kWh,solarPower_kWh,windSpeed_m/s,cloudCover_pct,temperature_C", file=f)
+        parsed_t = dp.parse(time)
+        timestamp = parsed_t.strftime('%s')
 
-    dicti = {'energy' : dataWeather, 'weather' : dataWeather}
-    for i in range(len(dicti['energy'])):
-        item1 = dicti['energy'][i]
-        item2 = dicti['weather'][i]
-
-        timestamp = item1['timestamp']['start']
-        regionCode = item1['regionCode']
-        region = lookupDict[regionCode]
-        windPower = float(item1['feedIn']['list'][4]['usage'])
-        solarPower = float(item1['feedIn']['list'][1]['usage'])
-        #regionCode = int(item1['regionCode'])
-
-        temperature = item2['weather']['temperature']
-        windSpeed = item2['weather']['windSpeed']
-        cloudCover = float(item2['weather']['cloudCover'])
-
-        expected_output = f"{timestamp},{regionCode},{region},{windPower},{solarPower},{windSpeed},{cloudCover},{temperature}"
+        expected_output = f"{timestamp},{temperature},{wind_speed},{wind_direction},{wind_gust},{cloud_cover},{weathercode}"
 
         print(expected_output, file=f)
+
 
     f.close()
 
 locationIDs, locations, longitude, latitude, wo_sun, wo_key, lookupDict, lookupRegion = location('lookup_table/locations.csv')
 urlsWeather = urlGeneratorWeather(locationIDs, longitude, latitude)
 parsedWeather, energy_json = loadJsonWeather(urlsWeather, lookupDict)
-#currentMonitorData = writeCurrentWeather(parsedWeather)
+writeForecastWeather(parsedWeather)
+
