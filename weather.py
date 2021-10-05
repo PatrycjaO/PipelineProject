@@ -26,7 +26,7 @@ def location(lookup_tables):
         if col['regionID'] not in lookupDict:
             lookupDict[col['regionID']] = [col['lat'],col['lon']]
     lookupRegion = dict(zip(locationIDs,locations))
-    print(lookupDict)
+    #print(lookupDict)
     return locationIDs, locations, longitude, latitude, wo_sun, wo_key, lookupDict, lookupRegion
 
 def urlGeneratorWeather(regions,lat,lon):
@@ -57,9 +57,9 @@ def loadJsonWeather(links, lookupdict):
         region_code = [k for k, v in lookupdict.items() if (str(lat) and str(lon)) in v]
         filepath = region_code[0]+'_data_forecast_weather.json'
         filepaths.append(filepath)
-        with open('raw_data/%s_data_forecast_weather.json' % region_code, 'w') as f:
+        with open('raw_data/%s_data_forecast_weather.json' % region_code[0], 'w') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
-
+    #print(filepaths)
     return parsed_list, filepaths
     
     
