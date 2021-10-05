@@ -1,3 +1,5 @@
+#script for extract, transform for weather forecast api
+
 import json
 import csv
 import urllib.request
