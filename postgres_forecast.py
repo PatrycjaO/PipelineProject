@@ -22,7 +22,7 @@ def write2database(inputFile):
 
     try:
         cursor.execute("""
-        CREATE TABLE if not exists energydata (
+        CREATE TABLE if not exists forecastdata (
             "timestamp" integer,
             "regionCode" integer NOT NULL,
             "region" text,
