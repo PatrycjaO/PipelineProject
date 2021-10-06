@@ -24,8 +24,7 @@ def write2database(inputFile):
         cursor.execute("""
         CREATE TABLE if not exists energydata (
             "timestamp" integer,
-            "regionCode" integer NOT NULL,
-            "region" text,
+            "regionID" integer NOT NULL,
             "windPower_kWh" real,
             "solarPower_kWh" real,
             "windSpeed_m/s" real,

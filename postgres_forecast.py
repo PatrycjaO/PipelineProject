@@ -24,8 +24,7 @@ def write2database(inputFile):
         cursor.execute("""
         CREATE TABLE if not exists forecastdata (
             "timestamp" integer,
-            "regionCode" integer NOT NULL,
-            "region" text,
+            "regionID" integer NOT NULL,
             "temperature_C" real,
             "wind_speed_m/s" real,
             "wind_direction" real,

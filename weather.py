@@ -1,4 +1,4 @@
-#script for extract, transform for weather forecast api
+# ETL script for weather forecast API: tomorrow.io
 
 import json
 import csv
@@ -7,6 +7,7 @@ import re
 import dateutil.parser as dp
 
 def location(lookup_tables):
+    '''function creating lookup lists and dictionaries for download files naming'''
     locationIDs = []
     locations = []
     longitude = []
@@ -26,23 +27,24 @@ def location(lookup_tables):
         if col['regionID'] not in lookupDict:
             lookupDict[col['regionID']] = [col['lat'],col['lon']]
     lookupRegion = dict(zip(locationIDs,locations))
-    #print(lookupDict)
     return locationIDs, locations, longitude, latitude, wo_sun, wo_key, lookupDict, lookupRegion
 
-def urlGeneratorWeather(regions,lat,lon):
+def url_generator_weather(regions,lat,lon):
+    '''function for generating urls for forecast energy url-requests from tomorrow.io API'''
     #'https://api.tomorrow.io/v4/timelines?location=49.047094,12.108713&fields=temperature&fields=temperatureApparent&fields=dewPoint&fields=humidity&fields=windSpeed&fields=windDirection&fields=windGust&fields=cloudCover&fields=weatherCode&timesteps=1h&units=metric&apikey=kMFwv41yZDt4vjeF0AoEQ1smgbwxGLYc'
     urlsWeather = []
     location = []
     base_url = 'https://api.tomorrow.io/v4/timelines?location='
     q = '&fields=temperature&fields=temperatureApparent&fields=dewPoint&fields=humidity&fields=windSpeed&fields=windDirection&fields=windGust&fields=cloudCover&fields=weatherCode&timesteps=1h&units=metric&apikey=kMFwv41yZDt4vjeF0AoEQ1smgbwxGLYc'
     for i, value in enumerate(regions):
-        location.append(str(lat[i]+','+str(lon[i])))
+        location.append(str(lon[i]+','+str(lat[i])))
         url = base_url + location[i] + q
         urlsWeather.append(url)
     return urlsWeather
 
-def loadJsonWeather(links, lookupdict):
-    filepaths = []
+def load_json_weather(links, lookupdict):
+    '''function for parsed json for weather requests'''
+    filenames = []
     parsed_list = []
     for url in links:
         response = urllib.request.urlopen(url)
@@ -50,30 +52,33 @@ def loadJsonWeather(links, lookupdict):
         text = current_energy.decode('utf-8')
         parsed = json.loads(text)
         parsed_list.append(parsed)
-        lat = re.findall(r'\d*.\d*,', url)
+        # extract latitude and longitude from urls:
+        lat = re.findall(r'\d*.\d*,', url) 
         lon = re.findall(r',\d*.\d*', url)
         lat = lat[0].replace(',','')
         lon = lon[0].replace(',','')
+        # extract region code based on latitude and longitude value:
         region_code = [k for k, v in lookupdict.items() if (str(lat) and str(lon)) in v]
-        filepath = region_code[0]+'_data_forecast_weather.json'
-        filepaths.append(filepath)
+        # list of filenames based on extracted region code
+        filename = region_code[0]+'_data_forecast_weather.json'
+        filenames.append(filename)
+        # write json files with corresponding region code in file naming:
         with open('raw_data/%s_data_forecast_weather.json' % region_code[0], 'w') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
-    #print(filepaths)
-    return parsed_list, filepaths
+    return parsed_list, filenames
     
     
 
-def writeForecastWeather(dataWeather, files, lookupdict):
-
+def write_forecast_weather(dataWeather, files):
+    '''write weather forecast output into structured csv-files'''
     f = open("weather_forecast/daily_weatherforecast.csv", 'w')
-
-    print("timestamp,regionCode,region,temperature_C,wind_speed_m/s,wind_direction,wind_gust,cloud_cover_pct,weathercode", file=f)
-
+    print("timestamp,regionID,temperature_C,wind_speed_m/s,wind_direction,wind_gust,cloud_cover_pct,weathercode", file=f)
+    # extract start time for weather forecast limitation of 24h:
     starttime = dataWeather[0]['data']['timelines'][0]['intervals'][0]['startTime']
+    # convert starttime to unixtime:
     parsed_t = dp.parse(starttime)
     starttime = parsed_t.strftime('%s')
-    
+    # write csv file:
     for i, value in enumerate(dataWeather):
         for item in dataWeather[i]['data']['timelines'][0]['intervals']:
             time = item['startTime']
@@ -85,11 +90,11 @@ def writeForecastWeather(dataWeather, files, lookupdict):
             weathercode = item['values']['weatherCode']
             parsed_t = dp.parse(time)
             timestamp = parsed_t.strftime('%s')
-            regionCode = re.findall(r'\d*', files[i])
-            regionCode = regionCode[0]
-            region = lookupdict[regionCode]
+            # include regionID extracted from file name
+            regionID = re.findall(r'\d*', files[i])
+            regionID = regionID[0]
 
-            expected_output = f"{timestamp},{regionCode},{region},{temperature},{wind_speed},{wind_direction},{wind_gust},{cloud_cover},{weathercode}"
+            expected_output = f"{timestamp},{regionID},{temperature},{wind_speed},{wind_direction},{wind_gust},{cloud_cover},{weathercode}"
             
             if int(timestamp) < int(starttime) + 24 * 60 * 60: #time + 24h for 24h forecast
                 print(expected_output, file=f)
@@ -98,7 +103,7 @@ def writeForecastWeather(dataWeather, files, lookupdict):
     f.close()
 
 locationIDs, locations, longitude, latitude, wo_sun, wo_key, lookupDict, lookupRegion = location('lookup_table/locations.csv')
-urlsWeather = urlGeneratorWeather(locationIDs, longitude, latitude)
-parsedWeather, weather_json = loadJsonWeather(urlsWeather, lookupDict)
-writeForecastWeather(parsedWeather, weather_json,lookupRegion)
+urlsWeather = url_generator_weather(locationIDs, longitude, latitude)
+parsedWeather, weather_json = load_json_weather(urlsWeather, lookupDict)
+write_forecast_weather(parsedWeather, weather_json)
 
