@@ -3,243 +3,89 @@
         "timelines": [
             {
                 "timestep": "1h",
-                "startTime": "2021-10-05T20:00:00Z",
-                "endTime": "2021-10-10T08:00:00Z",
+                "startTime": "2021-10-06T07:00:00Z",
+                "endTime": "2021-10-10T19:00:00Z",
                 "intervals": [
-                    {
-                        "startTime": "2021-10-05T20:00:00Z",
-                        "values": {
-                            "temperature": 31.19,
-                            "temperatureApparent": 40.5,
-                            "dewPoint": 26.69,
-                            "humidity": 77,
-                            "windSpeed": 2.63,
-                            "windDirection": 153.31,
-                            "windGust": 3.69,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-05T21:00:00Z",
-                        "values": {
-                            "temperature": 31.14,
-                            "temperatureApparent": 39.23,
-                            "dewPoint": 25.94,
-                            "humidity": 73.92,
-                            "windSpeed": 3.07,
-                            "windDirection": 132.42,
-                            "windGust": 3.61,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-05T22:00:00Z",
-                        "values": {
-                            "temperature": 31.08,
-                            "temperatureApparent": 39.52,
-                            "dewPoint": 26.2,
-                            "humidity": 75.33,
-                            "windSpeed": 3.05,
-                            "windDirection": 138.1,
-                            "windGust": 3.85,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-05T23:00:00Z",
-                        "values": {
-                            "temperature": 30.99,
-                            "temperatureApparent": 39.73,
-                            "dewPoint": 26.43,
-                            "humidity": 76.78,
-                            "windSpeed": 2.7,
-                            "windDirection": 135.94,
-                            "windGust": 3.61,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T00:00:00Z",
-                        "values": {
-                            "temperature": 30.96,
-                            "temperatureApparent": 39.9,
-                            "dewPoint": 26.57,
-                            "humidity": 77.54,
-                            "windSpeed": 1.43,
-                            "windDirection": 97.96,
-                            "windGust": 2.6,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T01:00:00Z",
-                        "values": {
-                            "temperature": 31.05,
-                            "temperatureApparent": 40.31,
-                            "dewPoint": 26.74,
-                            "humidity": 77.94,
-                            "windSpeed": 2.46,
-                            "windDirection": 85.85,
-                            "windGust": 3.66,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T02:00:00Z",
-                        "values": {
-                            "temperature": 31.2,
-                            "temperatureApparent": 40.05,
-                            "dewPoint": 26.42,
-                            "humidity": 75.86,
-                            "windSpeed": 3.13,
-                            "windDirection": 87.8,
-                            "windGust": 4.38,
-                            "cloudCover": 0.78,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T03:00:00Z",
-                        "values": {
-                            "temperature": 31.34,
-                            "temperatureApparent": 39.79,
-                            "dewPoint": 26.1,
-                            "humidity": 73.78,
-                            "windSpeed": 3.8,
-                            "windDirection": 87.8,
-                            "windGust": 5.11,
-                            "cloudCover": 1.56,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T04:00:00Z",
-                        "values": {
-                            "temperature": 31.24,
-                            "temperatureApparent": 39.07,
-                            "dewPoint": 25.71,
-                            "humidity": 72.52,
-                            "windSpeed": 2.85,
-                            "windDirection": 107.12,
-                            "windGust": 4.03,
-                            "cloudCover": 0.78,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T05:00:00Z",
-                        "values": {
-                            "temperature": 31.03,
-                            "temperatureApparent": 38.14,
-                            "dewPoint": 25.26,
-                            "humidity": 71.45,
-                            "windSpeed": 2.5,
-                            "windDirection": 90.23,
-                            "windGust": 3.7,
-                            "cloudCover": 0.78,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-06T06:00:00Z",
-                        "values": {
-                            "temperature": 30.81,
-                            "temperatureApparent": 37.62,
-                            "dewPoint": 25.12,
-                            "humidity": 71.77,
-                            "windSpeed": 1.58,
-                            "windDirection": 77.7,
-                            "windGust": 2.7,
-                            "cloudCover": 0.78,
-                            "weatherCode": 1000
-                        }
-                    },
                     {
                         "startTime": "2021-10-06T07:00:00Z",
                         "values": {
-                            "temperature": 30.71,
-                            "temperatureApparent": 37.71,
-                            "dewPoint": 25.32,
-                            "humidity": 73.03,
-                            "windSpeed": 1.83,
-                            "windDirection": 37.04,
-                            "windGust": 3.02,
-                            "cloudCover": 0,
-                            "weatherCode": 1000
+                            "temperature": 31.13,
+                            "temperatureApparent": 37.38,
+                            "dewPoint": 24.63,
+                            "humidity": 69,
+                            "windSpeed": 2.31,
+                            "windDirection": 62.38,
+                            "windGust": 3.63,
+                            "cloudCover": 17,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-06T08:00:00Z",
                         "values": {
-                            "temperature": 30.97,
-                            "temperatureApparent": 38.68,
-                            "dewPoint": 25.73,
-                            "humidity": 73.74,
-                            "windSpeed": 2.28,
-                            "windDirection": 13.61,
-                            "windGust": 3.46,
-                            "cloudCover": 0,
+                            "temperature": 31.02,
+                            "temperatureApparent": 38.35,
+                            "dewPoint": 25.43,
+                            "humidity": 72.25,
+                            "windSpeed": 3.27,
+                            "windDirection": 80.6,
+                            "windGust": 4.69,
+                            "cloudCover": 11.13,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T09:00:00Z",
                         "values": {
-                            "temperature": 31.4,
-                            "temperatureApparent": 39.48,
-                            "dewPoint": 25.83,
-                            "humidity": 72.39,
-                            "windSpeed": 3,
-                            "windDirection": 10.52,
-                            "windGust": 4.22,
-                            "cloudCover": 0,
+                            "temperature": 31.16,
+                            "temperatureApparent": 38.99,
+                            "dewPoint": 25.74,
+                            "humidity": 73,
+                            "windSpeed": 2.83,
+                            "windDirection": 54.13,
+                            "windGust": 5.14,
+                            "cloudCover": 8.34,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T10:00:00Z",
                         "values": {
-                            "temperature": 31.7,
-                            "temperatureApparent": 39.17,
-                            "dewPoint": 25.29,
-                            "humidity": 68.89,
-                            "windSpeed": 2.74,
-                            "windDirection": 344.44,
-                            "windGust": 3.89,
-                            "cloudCover": 0,
+                            "temperature": 31.44,
+                            "temperatureApparent": 39.28,
+                            "dewPoint": 25.64,
+                            "humidity": 71.43,
+                            "windSpeed": 2.33,
+                            "windDirection": 48.9,
+                            "windGust": 4.13,
+                            "cloudCover": 5.56,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T11:00:00Z",
                         "values": {
-                            "temperature": 31.87,
-                            "temperatureApparent": 39.56,
-                            "dewPoint": 25.39,
-                            "humidity": 68.63,
-                            "windSpeed": 3.37,
-                            "windDirection": 324.6,
-                            "windGust": 4.62,
-                            "cloudCover": 3.13,
+                            "temperature": 31.62,
+                            "temperatureApparent": 39.59,
+                            "dewPoint": 25.68,
+                            "humidity": 70.86,
+                            "windSpeed": 1.87,
+                            "windDirection": 17.81,
+                            "windGust": 3.62,
+                            "cloudCover": 2.78,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T12:00:00Z",
                         "values": {
-                            "temperature": 31.68,
-                            "temperatureApparent": 40.73,
-                            "dewPoint": 26.36,
-                            "humidity": 73.51,
-                            "windSpeed": 3.54,
-                            "windDirection": 320.72,
-                            "windGust": 4.8,
+                            "temperature": 31.83,
+                            "temperatureApparent": 40,
+                            "dewPoint": 25.74,
+                            "humidity": 70.28,
+                            "windSpeed": 2.53,
+                            "windDirection": 342.33,
+                            "windGust": 3.63,
                             "cloudCover": 0,
                             "weatherCode": 1000
                         }
@@ -247,335 +93,335 @@
                     {
                         "startTime": "2021-10-06T13:00:00Z",
                         "values": {
-                            "temperature": 31.59,
-                            "temperatureApparent": 41.26,
-                            "dewPoint": 26.78,
-                            "humidity": 75.76,
-                            "windSpeed": 4.09,
-                            "windDirection": 302.11,
-                            "windGust": 5.46,
-                            "cloudCover": 1.56,
+                            "temperature": 31.9,
+                            "temperatureApparent": 40.29,
+                            "dewPoint": 25.86,
+                            "humidity": 70.49,
+                            "windSpeed": 2.61,
+                            "windDirection": 331.07,
+                            "windGust": 3.72,
+                            "cloudCover": 0.78,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T14:00:00Z",
                         "values": {
-                            "temperature": 31.59,
-                            "temperatureApparent": 41.19,
-                            "dewPoint": 26.73,
-                            "humidity": 75.51,
-                            "windSpeed": 3.36,
-                            "windDirection": 296.74,
-                            "windGust": 4.58,
-                            "cloudCover": 3.13,
+                            "temperature": 31.97,
+                            "temperatureApparent": 40.58,
+                            "dewPoint": 25.98,
+                            "humidity": 70.7,
+                            "windSpeed": 2.69,
+                            "windDirection": 331.07,
+                            "windGust": 3.81,
+                            "cloudCover": 1.56,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T15:00:00Z",
                         "values": {
-                            "temperature": 31.48,
-                            "temperatureApparent": 40.46,
-                            "dewPoint": 26.39,
-                            "humidity": 74.47,
-                            "windSpeed": 2.02,
-                            "windDirection": 274.33,
-                            "windGust": 3.05,
-                            "cloudCover": 8.59,
+                            "temperature": 31.85,
+                            "temperatureApparent": 40.64,
+                            "dewPoint": 26.14,
+                            "humidity": 71.86,
+                            "windSpeed": 1.6,
+                            "windDirection": 327.88,
+                            "windGust": 2.54,
+                            "cloudCover": 2.34,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T16:00:00Z",
                         "values": {
-                            "temperature": 31.22,
-                            "temperatureApparent": 39.68,
-                            "dewPoint": 26.16,
-                            "humidity": 74.56,
-                            "windSpeed": 2.16,
-                            "windDirection": 193.5,
-                            "windGust": 3.29,
-                            "cloudCover": 14.06,
-                            "weatherCode": 1100
+                            "temperature": 31.54,
+                            "temperatureApparent": 40.41,
+                            "dewPoint": 26.3,
+                            "humidity": 73.79,
+                            "windSpeed": 1.44,
+                            "windDirection": 149.06,
+                            "windGust": 2.46,
+                            "cloudCover": 2.34,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T17:00:00Z",
                         "values": {
-                            "temperature": 31.04,
-                            "temperatureApparent": 40.13,
-                            "dewPoint": 26.64,
-                            "humidity": 77.47,
-                            "windSpeed": 1.98,
-                            "windDirection": 129.91,
-                            "windGust": 3.14,
-                            "cloudCover": 15.63,
-                            "weatherCode": 1100
+                            "temperature": 31.51,
+                            "temperatureApparent": 40.43,
+                            "dewPoint": 26.34,
+                            "humidity": 74.13,
+                            "windSpeed": 2.98,
+                            "windDirection": 120.5,
+                            "windGust": 4.27,
+                            "cloudCover": 8.59,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T18:00:00Z",
                         "values": {
-                            "temperature": 31.03,
-                            "temperatureApparent": 40.5,
-                            "dewPoint": 26.88,
-                            "humidity": 78.66,
-                            "windSpeed": 2.83,
-                            "windDirection": 78.84,
-                            "windGust": 4.11,
-                            "cloudCover": 10.16,
-                            "weatherCode": 1000
+                            "temperature": 31.6,
+                            "temperatureApparent": 39.98,
+                            "dewPoint": 25.96,
+                            "humidity": 72.1,
+                            "windSpeed": 3.38,
+                            "windDirection": 87.59,
+                            "windGust": 4.75,
+                            "cloudCover": 13.28,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-06T19:00:00Z",
                         "values": {
-                            "temperature": 30.97,
-                            "temperatureApparent": 40.07,
-                            "dewPoint": 26.67,
-                            "humidity": 77.94,
-                            "windSpeed": 3.25,
-                            "windDirection": 65.58,
-                            "windGust": 4.64,
-                            "cloudCover": 0.78,
-                            "weatherCode": 1000
+                            "temperature": 31.69,
+                            "temperatureApparent": 39.83,
+                            "dewPoint": 25.77,
+                            "humidity": 70.95,
+                            "windSpeed": 3.67,
+                            "windDirection": 71.43,
+                            "windGust": 5.06,
+                            "cloudCover": 14.84,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-06T20:00:00Z",
                         "values": {
-                            "temperature": 30.94,
-                            "temperatureApparent": 39.76,
-                            "dewPoint": 26.51,
-                            "humidity": 77.33,
-                            "windSpeed": 3.25,
-                            "windDirection": 88.47,
-                            "windGust": 4.63,
-                            "cloudCover": 0.78,
+                            "temperature": 31.61,
+                            "temperatureApparent": 40.39,
+                            "dewPoint": 26.22,
+                            "humidity": 73.22,
+                            "windSpeed": 4,
+                            "windDirection": 82.01,
+                            "windGust": 5.45,
+                            "cloudCover": 8.59,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T21:00:00Z",
                         "values": {
-                            "temperature": 30.94,
-                            "temperatureApparent": 39.45,
-                            "dewPoint": 26.3,
-                            "humidity": 76.36,
-                            "windSpeed": 3.44,
-                            "windDirection": 97.43,
-                            "windGust": 4.84,
-                            "cloudCover": 0,
+                            "temperature": 31.49,
+                            "temperatureApparent": 40.72,
+                            "dewPoint": 26.55,
+                            "humidity": 75.14,
+                            "windSpeed": 4.49,
+                            "windDirection": 95.2,
+                            "windGust": 6.05,
+                            "cloudCover": 0.78,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T22:00:00Z",
                         "values": {
-                            "temperature": 31.13,
-                            "temperatureApparent": 39.36,
-                            "dewPoint": 26.04,
-                            "humidity": 74.4,
-                            "windSpeed": 2.64,
-                            "windDirection": 77.28,
-                            "windGust": 3.87,
-                            "cloudCover": 0,
+                            "temperature": 31.53,
+                            "temperatureApparent": 40.28,
+                            "dewPoint": 26.22,
+                            "humidity": 73.51,
+                            "windSpeed": 4.03,
+                            "windDirection": 101.57,
+                            "windGust": 5.49,
+                            "cloudCover": 0.78,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-06T23:00:00Z",
                         "values": {
-                            "temperature": 31.2,
-                            "temperatureApparent": 39.44,
-                            "dewPoint": 26.01,
-                            "humidity": 73.99,
-                            "windSpeed": 2.46,
-                            "windDirection": 86.33,
-                            "windGust": 3.63,
-                            "cloudCover": 2.34,
+                            "temperature": 31.55,
+                            "temperatureApparent": 39.92,
+                            "dewPoint": 25.97,
+                            "humidity": 72.38,
+                            "windSpeed": 3.54,
+                            "windDirection": 101.9,
+                            "windGust": 4.91,
+                            "cloudCover": 0.78,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T00:00:00Z",
                         "values": {
-                            "temperature": 31.19,
-                            "temperatureApparent": 39.23,
-                            "dewPoint": 25.88,
-                            "humidity": 73.46,
-                            "windSpeed": 2.54,
-                            "windDirection": 111.74,
-                            "windGust": 3.72,
-                            "cloudCover": 12.5,
-                            "weatherCode": 1100
+                            "temperature": 31.55,
+                            "temperatureApparent": 39.55,
+                            "dewPoint": 25.72,
+                            "humidity": 71.31,
+                            "windSpeed": 3.38,
+                            "windDirection": 107.23,
+                            "windGust": 4.72,
+                            "cloudCover": 0.78,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T01:00:00Z",
                         "values": {
-                            "temperature": 31.04,
-                            "temperatureApparent": 39.05,
-                            "dewPoint": 25.92,
-                            "humidity": 74.26,
-                            "windSpeed": 2.57,
-                            "windDirection": 132.07,
-                            "windGust": 3.81,
-                            "cloudCover": 21.09,
-                            "weatherCode": 1100
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-07T02:00:00Z",
-                        "values": {
-                            "temperature": 30.81,
-                            "temperatureApparent": 39.15,
-                            "dewPoint": 26.24,
-                            "humidity": 76.71,
-                            "windSpeed": 2.71,
-                            "windDirection": 139.96,
-                            "windGust": 4.02,
-                            "cloudCover": 9.38,
-                            "weatherCode": 1000
-                        }
-                    },
-                    {
-                        "startTime": "2021-10-07T03:00:00Z",
-                        "values": {
-                            "temperature": 30.75,
-                            "temperatureApparent": 39.43,
-                            "dewPoint": 26.5,
-                            "humidity": 78.17,
-                            "windSpeed": 2.63,
-                            "windDirection": 124.24,
-                            "windGust": 3.92,
+                            "temperature": 31.42,
+                            "temperatureApparent": 39.37,
+                            "dewPoint": 25.73,
+                            "humidity": 71.83,
+                            "windSpeed": 3.08,
+                            "windDirection": 111.16,
+                            "windGust": 4.4,
                             "cloudCover": 3.91,
                             "weatherCode": 1000
                         }
                     },
                     {
+                        "startTime": "2021-10-07T02:00:00Z",
+                        "values": {
+                            "temperature": 30.75,
+                            "temperatureApparent": 39.77,
+                            "dewPoint": 26.72,
+                            "humidity": 79.14,
+                            "windSpeed": 3.48,
+                            "windDirection": 107.21,
+                            "windGust": 4.92,
+                            "cloudCover": 20.31,
+                            "weatherCode": 1100
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-07T03:00:00Z",
+                        "values": {
+                            "temperature": 30.76,
+                            "temperatureApparent": 39.68,
+                            "dewPoint": 26.65,
+                            "humidity": 78.77,
+                            "windSpeed": 3.65,
+                            "windDirection": 106.41,
+                            "windGust": 5.1,
+                            "cloudCover": 35.94,
+                            "weatherCode": 1100
+                        }
+                    },
+                    {
                         "startTime": "2021-10-07T04:00:00Z",
                         "values": {
-                            "temperature": 30.8,
-                            "temperatureApparent": 39.84,
-                            "dewPoint": 26.71,
-                            "humidity": 78.9,
-                            "windSpeed": 3.02,
-                            "windDirection": 101.3,
-                            "windGust": 4.34,
-                            "cloudCover": 7.81,
-                            "weatherCode": 1000
+                            "temperature": 30.79,
+                            "temperatureApparent": 39.6,
+                            "dewPoint": 26.56,
+                            "humidity": 78.23,
+                            "windSpeed": 3.48,
+                            "windDirection": 108.37,
+                            "windGust": 4.88,
+                            "cloudCover": 20.31,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-07T05:00:00Z",
                         "values": {
-                            "temperature": 30.84,
-                            "temperatureApparent": 40.04,
-                            "dewPoint": 26.8,
-                            "humidity": 79.13,
-                            "windSpeed": 3.61,
-                            "windDirection": 81.93,
-                            "windGust": 5.01,
-                            "cloudCover": 6.25,
-                            "weatherCode": 1000
+                            "temperature": 30.74,
+                            "temperatureApparent": 39.65,
+                            "dewPoint": 26.66,
+                            "humidity": 78.92,
+                            "windSpeed": 3.77,
+                            "windDirection": 87.91,
+                            "windGust": 5.22,
+                            "cloudCover": 17.19,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-07T06:00:00Z",
                         "values": {
-                            "temperature": 30.82,
-                            "temperatureApparent": 40.17,
-                            "dewPoint": 26.9,
-                            "humidity": 79.72,
-                            "windSpeed": 4.2,
-                            "windDirection": 73.65,
-                            "windGust": 5.74,
-                            "cloudCover": 2.34,
+                            "temperature": 30.67,
+                            "temperatureApparent": 39.56,
+                            "dewPoint": 26.67,
+                            "humidity": 79.26,
+                            "windSpeed": 4.5,
+                            "windDirection": 78.49,
+                            "windGust": 6.13,
+                            "cloudCover": 10.16,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T07:00:00Z",
                         "values": {
-                            "temperature": 30.94,
-                            "temperatureApparent": 40.49,
-                            "dewPoint": 26.97,
-                            "humidity": 79.5,
-                            "windSpeed": 3.79,
-                            "windDirection": 73.75,
-                            "windGust": 5.23,
-                            "cloudCover": 0.78,
-                            "weatherCode": 1000
+                            "temperature": 30.71,
+                            "temperatureApparent": 39.69,
+                            "dewPoint": 26.71,
+                            "humidity": 79.29,
+                            "windSpeed": 4.32,
+                            "windDirection": 80.68,
+                            "windGust": 5.92,
+                            "cloudCover": 15.63,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-07T08:00:00Z",
                         "values": {
-                            "temperature": 30.86,
-                            "temperatureApparent": 40.4,
-                            "dewPoint": 27,
-                            "humidity": 79.97,
-                            "windSpeed": 3.59,
-                            "windDirection": 60.8,
-                            "windGust": 5.01,
-                            "cloudCover": 0,
+                            "temperature": 30.62,
+                            "temperatureApparent": 39.89,
+                            "dewPoint": 26.94,
+                            "humidity": 80.79,
+                            "windSpeed": 4.01,
+                            "windDirection": 64.17,
+                            "windGust": 5.56,
+                            "cloudCover": 7.81,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T09:00:00Z",
                         "values": {
-                            "temperature": 30.86,
-                            "temperatureApparent": 39.75,
-                            "dewPoint": 26.58,
-                            "humidity": 78.04,
-                            "windSpeed": 3,
-                            "windDirection": 55.36,
-                            "windGust": 4.34,
-                            "cloudCover": 3.13,
+                            "temperature": 30.62,
+                            "temperatureApparent": 39.63,
+                            "dewPoint": 26.78,
+                            "humidity": 80.02,
+                            "windSpeed": 3.32,
+                            "windDirection": 54.55,
+                            "windGust": 4.76,
+                            "cloudCover": 2.34,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T10:00:00Z",
                         "values": {
-                            "temperature": 30.96,
-                            "temperatureApparent": 39.34,
-                            "dewPoint": 26.21,
-                            "humidity": 75.92,
-                            "windSpeed": 2.67,
-                            "windDirection": 52.12,
-                            "windGust": 3.99,
-                            "cloudCover": 3.13,
+                            "temperature": 30.75,
+                            "temperatureApparent": 39.47,
+                            "dewPoint": 26.53,
+                            "humidity": 78.28,
+                            "windSpeed": 3.17,
+                            "windDirection": 43.67,
+                            "windGust": 4.57,
+                            "cloudCover": 0.78,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T11:00:00Z",
                         "values": {
-                            "temperature": 30.97,
-                            "temperatureApparent": 39.62,
-                            "dewPoint": 26.38,
-                            "humidity": 76.64,
-                            "windSpeed": 2.65,
-                            "windDirection": 43.96,
-                            "windGust": 3.95,
-                            "cloudCover": 4.69,
+                            "temperature": 30.68,
+                            "temperatureApparent": 39.78,
+                            "dewPoint": 26.8,
+                            "humidity": 79.86,
+                            "windSpeed": 3.22,
+                            "windDirection": 47.53,
+                            "windGust": 4.65,
+                            "cloudCover": 5.47,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T12:00:00Z",
                         "values": {
-                            "temperature": 31.15,
-                            "temperatureApparent": 40.52,
-                            "dewPoint": 26.77,
-                            "humidity": 77.58,
-                            "windSpeed": 3,
-                            "windDirection": 48.04,
-                            "windGust": 4.34,
+                            "temperature": 30.99,
+                            "temperatureApparent": 40.6,
+                            "dewPoint": 26.98,
+                            "humidity": 79.27,
+                            "windSpeed": 3.47,
+                            "windDirection": 55.79,
+                            "windGust": 4.87,
                             "cloudCover": 7.03,
                             "weatherCode": 1000
                         }
@@ -583,27 +429,27 @@
                     {
                         "startTime": "2021-10-07T13:00:00Z",
                         "values": {
-                            "temperature": 31.29,
-                            "temperatureApparent": 40.38,
-                            "dewPoint": 26.53,
-                            "humidity": 75.92,
-                            "windSpeed": 3.36,
-                            "windDirection": 44.7,
-                            "windGust": 4.7,
-                            "cloudCover": 13.28,
-                            "weatherCode": 1100
+                            "temperature": 30.98,
+                            "temperatureApparent": 40.49,
+                            "dewPoint": 26.93,
+                            "humidity": 79.08,
+                            "windSpeed": 3.84,
+                            "windDirection": 58.07,
+                            "windGust": 5.32,
+                            "cloudCover": 4.69,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T14:00:00Z",
                         "values": {
-                            "temperature": 31.37,
-                            "temperatureApparent": 40.16,
-                            "dewPoint": 26.31,
-                            "humidity": 74.58,
-                            "windSpeed": 3.37,
-                            "windDirection": 48.29,
-                            "windGust": 4.69,
+                            "temperature": 31.1,
+                            "temperatureApparent": 40.48,
+                            "dewPoint": 26.79,
+                            "humidity": 77.93,
+                            "windSpeed": 4.04,
+                            "windDirection": 60.02,
+                            "windGust": 5.55,
                             "cloudCover": 10.16,
                             "weatherCode": 1000
                         }
@@ -611,153 +457,153 @@
                     {
                         "startTime": "2021-10-07T15:00:00Z",
                         "values": {
-                            "temperature": 31.23,
-                            "temperatureApparent": 40.57,
-                            "dewPoint": 26.71,
-                            "humidity": 76.98,
-                            "windSpeed": 3.73,
-                            "windDirection": 59.14,
-                            "windGust": 5.14,
-                            "cloudCover": 19.53,
-                            "weatherCode": 1100
+                            "temperature": 31.07,
+                            "temperatureApparent": 40.88,
+                            "dewPoint": 27.06,
+                            "humidity": 79.3,
+                            "windSpeed": 4.36,
+                            "windDirection": 64.01,
+                            "windGust": 5.9,
+                            "cloudCover": 11.72,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T16:00:00Z",
                         "values": {
-                            "temperature": 31.24,
-                            "temperatureApparent": 40.87,
-                            "dewPoint": 26.89,
-                            "humidity": 77.74,
-                            "windSpeed": 3.97,
-                            "windDirection": 68.28,
-                            "windGust": 5.4,
-                            "cloudCover": 16.41,
+                            "temperature": 31.14,
+                            "temperatureApparent": 40.79,
+                            "dewPoint": 26.94,
+                            "humidity": 78.41,
+                            "windSpeed": 4.53,
+                            "windDirection": 68.45,
+                            "windGust": 6.1,
+                            "cloudCover": 14.06,
                             "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-07T17:00:00Z",
                         "values": {
-                            "temperature": 31.18,
-                            "temperatureApparent": 41.26,
-                            "dewPoint": 27.18,
-                            "humidity": 79.34,
-                            "windSpeed": 4.01,
-                            "windDirection": 75.67,
-                            "windGust": 5.44,
-                            "cloudCover": 14.06,
-                            "weatherCode": 1100
+                            "temperature": 31.14,
+                            "temperatureApparent": 41.06,
+                            "dewPoint": 27.1,
+                            "humidity": 79.18,
+                            "windSpeed": 4.68,
+                            "windDirection": 72.72,
+                            "windGust": 6.26,
+                            "cloudCover": 10.94,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T18:00:00Z",
                         "values": {
-                            "temperature": 31.12,
-                            "temperatureApparent": 40.59,
-                            "dewPoint": 26.85,
-                            "humidity": 78.12,
-                            "windSpeed": 4.07,
-                            "windDirection": 79.84,
-                            "windGust": 5.54,
-                            "cloudCover": 7.81,
+                            "temperature": 31.02,
+                            "temperatureApparent": 41.08,
+                            "dewPoint": 27.24,
+                            "humidity": 80.41,
+                            "windSpeed": 4.44,
+                            "windDirection": 82.28,
+                            "windGust": 6.01,
+                            "cloudCover": 6.25,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T19:00:00Z",
                         "values": {
-                            "temperature": 31.13,
-                            "temperatureApparent": 40.41,
-                            "dewPoint": 26.72,
-                            "humidity": 77.47,
-                            "windSpeed": 4.12,
-                            "windDirection": 87.01,
-                            "windGust": 5.62,
-                            "cloudCover": 7.81,
+                            "temperature": 30.89,
+                            "temperatureApparent": 40.7,
+                            "dewPoint": 27.15,
+                            "humidity": 80.58,
+                            "windSpeed": 4.49,
+                            "windDirection": 83.43,
+                            "windGust": 6.08,
+                            "cloudCover": 9.38,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T20:00:00Z",
                         "values": {
-                            "temperature": 31.07,
-                            "temperatureApparent": 40.17,
-                            "dewPoint": 26.63,
-                            "humidity": 77.3,
-                            "windSpeed": 3.95,
-                            "windDirection": 85.6,
-                            "windGust": 5.42,
-                            "cloudCover": 10.16,
+                            "temperature": 30.75,
+                            "temperatureApparent": 40.47,
+                            "dewPoint": 27.16,
+                            "humidity": 81.26,
+                            "windSpeed": 4.66,
+                            "windDirection": 74.07,
+                            "windGust": 6.31,
+                            "cloudCover": 7.03,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T21:00:00Z",
                         "values": {
-                            "temperature": 30.92,
-                            "temperatureApparent": 39.72,
-                            "dewPoint": 26.5,
-                            "humidity": 77.37,
-                            "windSpeed": 3.84,
-                            "windDirection": 69.66,
-                            "windGust": 5.3,
-                            "cloudCover": 14.06,
-                            "weatherCode": 1100
+                            "temperature": 30.74,
+                            "temperatureApparent": 40.35,
+                            "dewPoint": 27.09,
+                            "humidity": 80.96,
+                            "windSpeed": 4.6,
+                            "windDirection": 63.67,
+                            "windGust": 6.24,
+                            "cloudCover": 5.47,
+                            "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-07T22:00:00Z",
                         "values": {
-                            "temperature": 30.76,
-                            "temperatureApparent": 39.29,
-                            "dewPoint": 26.39,
-                            "humidity": 77.61,
-                            "windSpeed": 4.23,
-                            "windDirection": 56.94,
-                            "windGust": 5.8,
-                            "cloudCover": 14.06,
+                            "temperature": 30.26,
+                            "temperatureApparent": 39.23,
+                            "dewPoint": 26.93,
+                            "humidity": 82.42,
+                            "windSpeed": 4.99,
+                            "windDirection": 56.55,
+                            "windGust": 6.81,
+                            "cloudCover": 14.84,
                             "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-07T23:00:00Z",
                         "values": {
-                            "temperature": 30.52,
-                            "temperatureApparent": 39.12,
-                            "dewPoint": 26.55,
-                            "humidity": 79.42,
-                            "windSpeed": 4.63,
-                            "windDirection": 53.49,
-                            "windGust": 6.32,
-                            "cloudCover": 14.84,
+                            "temperature": 30.2,
+                            "temperatureApparent": 38.63,
+                            "dewPoint": 26.61,
+                            "humidity": 81.16,
+                            "windSpeed": 4.28,
+                            "windDirection": 65.73,
+                            "windGust": 5.98,
+                            "cloudCover": 14.06,
                             "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-08T00:00:00Z",
                         "values": {
-                            "temperature": 28.91,
-                            "temperatureApparent": 35.45,
-                            "dewPoint": 26,
-                            "humidity": 84.35,
-                            "windSpeed": 3.76,
-                            "windDirection": 55.96,
+                            "temperature": 28.06,
+                            "temperatureApparent": 33.84,
+                            "dewPoint": 26.14,
+                            "humidity": 89.34,
+                            "windSpeed": 3.75,
+                            "windDirection": 55.51,
                             "windGust": 5.57,
-                            "cloudCover": 66.41,
-                            "weatherCode": 1102
+                            "cloudCover": 60.16,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-08T01:00:00Z",
                         "values": {
-                            "temperature": 26.28,
-                            "temperatureApparent": 26.28,
+                            "temperature": 26.62,
+                            "temperatureApparent": 26.62,
                             "dewPoint": 24.98,
-                            "humidity": 92.53,
-                            "windSpeed": 2.68,
-                            "windDirection": 159.77,
-                            "windGust": 4.68,
+                            "humidity": 90.75,
+                            "windSpeed": 1.7,
+                            "windDirection": 61.04,
+                            "windGust": 3.55,
                             "cloudCover": 100,
                             "weatherCode": 2100
                         }
@@ -765,771 +611,925 @@
                     {
                         "startTime": "2021-10-08T02:00:00Z",
                         "values": {
-                            "temperature": 26.64,
-                            "temperatureApparent": 26.64,
-                            "dewPoint": 24.7,
-                            "humidity": 89.15,
-                            "windSpeed": 0.65,
-                            "windDirection": 102.07,
-                            "windGust": 2.31,
-                            "cloudCover": 94.53,
+                            "temperature": 26.75,
+                            "temperatureApparent": 29.87,
+                            "dewPoint": 24.62,
+                            "humidity": 88.14,
+                            "windSpeed": 1.67,
+                            "windDirection": 157.99,
+                            "windGust": 3.47,
+                            "cloudCover": 90.63,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T03:00:00Z",
                         "values": {
-                            "temperature": 27.22,
-                            "temperatureApparent": 30.99,
-                            "dewPoint": 24.82,
-                            "humidity": 86.75,
+                            "temperature": 27.07,
+                            "temperatureApparent": 30.41,
+                            "dewPoint": 24.34,
+                            "humidity": 85.06,
                             "windSpeed": 1.48,
-                            "windDirection": 5.38,
-                            "windGust": 3.1,
-                            "cloudCover": 96.09,
+                            "windDirection": 149.85,
+                            "windGust": 3.18,
+                            "cloudCover": 93.75,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T04:00:00Z",
                         "values": {
-                            "temperature": 27.88,
-                            "temperatureApparent": 32.6,
-                            "dewPoint": 25.18,
-                            "humidity": 85.29,
-                            "windSpeed": 2.61,
-                            "windDirection": 75.77,
-                            "windGust": 4.38,
-                            "cloudCover": 96.09,
+                            "temperature": 27.59,
+                            "temperatureApparent": 31.49,
+                            "dewPoint": 24.45,
+                            "humidity": 83.04,
+                            "windSpeed": 2.18,
+                            "windDirection": 128.35,
+                            "windGust": 3.95,
+                            "cloudCover": 92.19,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T05:00:00Z",
                         "values": {
-                            "temperature": 28.49,
-                            "temperatureApparent": 34.13,
-                            "dewPoint": 25.53,
-                            "humidity": 84,
-                            "windSpeed": 3.22,
-                            "windDirection": 80.1,
-                            "windGust": 5.01,
-                            "cloudCover": 100,
+                            "temperature": 28.15,
+                            "temperatureApparent": 32.85,
+                            "dewPoint": 24.84,
+                            "humidity": 82.25,
+                            "windSpeed": 1.69,
+                            "windDirection": 86.51,
+                            "windGust": 3.29,
+                            "cloudCover": 89.84,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T06:00:00Z",
                         "values": {
-                            "temperature": 28.71,
-                            "temperatureApparent": 34.58,
-                            "dewPoint": 25.55,
-                            "humidity": 83.08,
-                            "windSpeed": 2.97,
-                            "windDirection": 71.95,
-                            "windGust": 4.7,
-                            "cloudCover": 98.44,
+                            "temperature": 28.57,
+                            "temperatureApparent": 33.84,
+                            "dewPoint": 25.06,
+                            "humidity": 81.35,
+                            "windSpeed": 1.78,
+                            "windDirection": 72.4,
+                            "windGust": 3.34,
+                            "cloudCover": 92.97,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T07:00:00Z",
                         "values": {
-                            "temperature": 28.79,
-                            "temperatureApparent": 34.82,
-                            "dewPoint": 25.65,
-                            "humidity": 83.21,
-                            "windSpeed": 3.09,
-                            "windDirection": 52.26,
-                            "windGust": 4.81,
-                            "cloudCover": 85.16,
-                            "weatherCode": 1001
+                            "temperature": 28.76,
+                            "temperatureApparent": 34.57,
+                            "dewPoint": 25.45,
+                            "humidity": 82.36,
+                            "windSpeed": 2.17,
+                            "windDirection": 52.67,
+                            "windGust": 3.75,
+                            "cloudCover": 55.47,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-08T08:00:00Z",
                         "values": {
-                            "temperature": 29.25,
-                            "temperatureApparent": 35.63,
-                            "dewPoint": 25.61,
-                            "humidity": 80.84,
-                            "windSpeed": 3.19,
-                            "windDirection": 37.54,
-                            "windGust": 4.86,
-                            "cloudCover": 85.94,
+                            "temperature": 29.11,
+                            "temperatureApparent": 35.56,
+                            "dewPoint": 25.77,
+                            "humidity": 82.28,
+                            "windSpeed": 2.17,
+                            "windDirection": 44.68,
+                            "windGust": 3.69,
+                            "cloudCover": 75,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T09:00:00Z",
                         "values": {
-                            "temperature": 29.25,
-                            "temperatureApparent": 35.79,
-                            "dewPoint": 25.76,
-                            "humidity": 81.53,
-                            "windSpeed": 3.54,
-                            "windDirection": 9.92,
-                            "windGust": 5.27,
-                            "cloudCover": 82.81,
+                            "temperature": 29.42,
+                            "temperatureApparent": 36.26,
+                            "dewPoint": 25.88,
+                            "humidity": 81.29,
+                            "windSpeed": 2.21,
+                            "windDirection": 30.02,
+                            "windGust": 3.69,
+                            "cloudCover": 79.69,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T10:00:00Z",
                         "values": {
-                            "temperature": 29.35,
-                            "temperatureApparent": 35.86,
-                            "dewPoint": 25.65,
-                            "humidity": 80.5,
-                            "windSpeed": 3.18,
-                            "windDirection": 3.04,
-                            "windGust": 4.84,
-                            "cloudCover": 78.91,
-                            "weatherCode": 1001
+                            "temperature": 29.67,
+                            "temperatureApparent": 36.77,
+                            "dewPoint": 25.93,
+                            "humidity": 80.36,
+                            "windSpeed": 3.06,
+                            "windDirection": 10.94,
+                            "windGust": 4.64,
+                            "cloudCover": 67.19,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-08T11:00:00Z",
                         "values": {
-                            "temperature": 29.34,
-                            "temperatureApparent": 35.91,
-                            "dewPoint": 25.71,
-                            "humidity": 80.9,
-                            "windSpeed": 3.04,
-                            "windDirection": 5.92,
-                            "windGust": 4.7,
-                            "cloudCover": 41.41,
-                            "weatherCode": 1101
+                            "temperature": 29.78,
+                            "temperatureApparent": 37.02,
+                            "dewPoint": 25.97,
+                            "humidity": 80.04,
+                            "windSpeed": 2.64,
+                            "windDirection": 12.11,
+                            "windGust": 4.14,
+                            "cloudCover": 68.75,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-08T12:00:00Z",
                         "values": {
-                            "temperature": 29.6,
-                            "temperatureApparent": 36.33,
-                            "dewPoint": 25.67,
-                            "humidity": 79.51,
-                            "windSpeed": 2.63,
-                            "windDirection": 359.88,
-                            "windGust": 4.17,
-                            "cloudCover": 63.28,
-                            "weatherCode": 1102
+                            "temperature": 30.13,
+                            "temperatureApparent": 37.36,
+                            "dewPoint": 25.77,
+                            "humidity": 77.56,
+                            "windSpeed": 2.46,
+                            "windDirection": 14.97,
+                            "windGust": 3.89,
+                            "cloudCover": 54.69,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-08T13:00:00Z",
                         "values": {
-                            "temperature": 29.71,
-                            "temperatureApparent": 36.54,
-                            "dewPoint": 25.68,
-                            "humidity": 79.03,
-                            "windSpeed": 2.41,
-                            "windDirection": 32.21,
-                            "windGust": 3.91,
-                            "cloudCover": 71.09,
-                            "weatherCode": 1102
+                            "temperature": 30.02,
+                            "temperatureApparent": 37.3,
+                            "dewPoint": 25.87,
+                            "humidity": 78.52,
+                            "windSpeed": 2.63,
+                            "windDirection": 39.13,
+                            "windGust": 4.11,
+                            "cloudCover": 56.25,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-08T14:00:00Z",
                         "values": {
-                            "temperature": 29.89,
-                            "temperatureApparent": 36.81,
-                            "dewPoint": 25.66,
-                            "humidity": 78.13,
-                            "windSpeed": 2.2,
-                            "windDirection": 44.91,
-                            "windGust": 3.64,
-                            "cloudCover": 60.94,
-                            "weatherCode": 1101
+                            "temperature": 30.13,
+                            "temperatureApparent": 37.49,
+                            "dewPoint": 25.86,
+                            "humidity": 77.95,
+                            "windSpeed": 2.13,
+                            "windDirection": 60.14,
+                            "windGust": 3.52,
+                            "cloudCover": 32.81,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-08T15:00:00Z",
                         "values": {
-                            "temperature": 30.12,
-                            "temperatureApparent": 37.37,
-                            "dewPoint": 25.79,
-                            "humidity": 77.69,
-                            "windSpeed": 3.54,
-                            "windDirection": 63.96,
-                            "windGust": 5.15,
-                            "cloudCover": 46.09,
-                            "weatherCode": 1101
+                            "temperature": 30.06,
+                            "temperatureApparent": 37.4,
+                            "dewPoint": 25.89,
+                            "humidity": 78.39,
+                            "windSpeed": 2.8,
+                            "windDirection": 60.56,
+                            "windGust": 4.27,
+                            "cloudCover": 35.16,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-08T16:00:00Z",
                         "values": {
-                            "temperature": 30.14,
-                            "temperatureApparent": 37.58,
-                            "dewPoint": 25.92,
-                            "humidity": 78.22,
-                            "windSpeed": 3.95,
-                            "windDirection": 85.27,
-                            "windGust": 5.63,
-                            "cloudCover": 35.94,
+                            "temperature": 30.01,
+                            "temperatureApparent": 37.57,
+                            "dewPoint": 26.08,
+                            "humidity": 79.49,
+                            "windSpeed": 3.73,
+                            "windDirection": 73.71,
+                            "windGust": 5.38,
+                            "cloudCover": 21.09,
                             "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-08T17:00:00Z",
                         "values": {
-                            "temperature": 30.04,
-                            "temperatureApparent": 37.44,
-                            "dewPoint": 25.95,
-                            "humidity": 78.82,
-                            "windSpeed": 3.65,
-                            "windDirection": 97.35,
-                            "windGust": 5.29,
-                            "cloudCover": 12.5,
+                            "temperature": 30.03,
+                            "temperatureApparent": 37.82,
+                            "dewPoint": 26.25,
+                            "humidity": 80.23,
+                            "windSpeed": 4.01,
+                            "windDirection": 87.86,
+                            "windGust": 5.7,
+                            "cloudCover": 27.34,
                             "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-08T18:00:00Z",
                         "values": {
-                            "temperature": 30.02,
-                            "temperatureApparent": 37.45,
-                            "dewPoint": 25.98,
-                            "humidity": 79.03,
-                            "windSpeed": 3.31,
-                            "windDirection": 97.51,
-                            "windGust": 4.86,
-                            "cloudCover": 15.63,
+                            "temperature": 30.2,
+                            "temperatureApparent": 38.06,
+                            "dewPoint": 26.2,
+                            "humidity": 79.23,
+                            "windSpeed": 3.69,
+                            "windDirection": 89.89,
+                            "windGust": 5.29,
+                            "cloudCover": 26.56,
                             "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-08T19:00:00Z",
                         "values": {
-                            "temperature": 30.09,
-                            "temperatureApparent": 37.57,
-                            "dewPoint": 25.98,
-                            "humidity": 78.67,
-                            "windSpeed": 3.28,
-                            "windDirection": 87.92,
-                            "windGust": 4.82,
-                            "cloudCover": 6.25,
-                            "weatherCode": 1000
+                            "temperature": 30.2,
+                            "temperatureApparent": 37.9,
+                            "dewPoint": 26.08,
+                            "humidity": 78.65,
+                            "windSpeed": 3.68,
+                            "windDirection": 94.11,
+                            "windGust": 5.27,
+                            "cloudCover": 42.19,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-08T20:00:00Z",
                         "values": {
-                            "temperature": 30.1,
-                            "temperatureApparent": 37.41,
-                            "dewPoint": 25.86,
-                            "humidity": 78.07,
-                            "windSpeed": 2.77,
-                            "windDirection": 76.33,
-                            "windGust": 4.08,
-                            "cloudCover": 33.51,
-                            "weatherCode": 1100
+                            "temperature": 30.19,
+                            "temperatureApparent": 38,
+                            "dewPoint": 26.16,
+                            "humidity": 79.09,
+                            "windSpeed": 2.97,
+                            "windDirection": 91.43,
+                            "windGust": 4.43,
+                            "cloudCover": 78.91,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T21:00:00Z",
                         "values": {
-                            "temperature": 30.06,
-                            "temperatureApparent": 37.2,
-                            "dewPoint": 25.74,
-                            "humidity": 77.73,
-                            "windSpeed": 2.36,
-                            "windDirection": 72.36,
-                            "windGust": 3.46,
-                            "cloudCover": 20.24,
-                            "weatherCode": 1100
+                            "temperature": 30.05,
+                            "temperatureApparent": 37.13,
+                            "dewPoint": 25.7,
+                            "humidity": 77.56,
+                            "windSpeed": 1.9,
+                            "windDirection": 75.59,
+                            "windGust": 3.23,
+                            "cloudCover": 68.75,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-08T22:00:00Z",
                         "values": {
-                            "temperature": 29.95,
-                            "temperatureApparent": 36.75,
-                            "dewPoint": 25.54,
-                            "humidity": 77.27,
-                            "windSpeed": 2.16,
-                            "windDirection": 69.34,
-                            "windGust": 3.12,
-                            "cloudCover": 13.44,
-                            "weatherCode": 1100
+                            "temperature": 29.59,
+                            "temperatureApparent": 36.21,
+                            "dewPoint": 25.59,
+                            "humidity": 79.12,
+                            "windSpeed": 1.88,
+                            "windDirection": 24.37,
+                            "windGust": 3.27,
+                            "cloudCover": 87.5,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-08T23:00:00Z",
                         "values": {
-                            "temperature": 29.74,
-                            "temperatureApparent": 35.9,
-                            "dewPoint": 25.11,
-                            "humidity": 76.25,
-                            "windSpeed": 1.76,
-                            "windDirection": 53.69,
-                            "windGust": 3.36,
-                            "cloudCover": 30.15,
-                            "weatherCode": 1100
+                            "temperature": 28.7,
+                            "temperatureApparent": 34.61,
+                            "dewPoint": 25.61,
+                            "humidity": 83.4,
+                            "windSpeed": 3.34,
+                            "windDirection": 30.15,
+                            "windGust": 5.1,
+                            "cloudCover": 88.28,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T00:00:00Z",
                         "values": {
-                            "temperature": 29.35,
-                            "temperatureApparent": 35.32,
-                            "dewPoint": 25.17,
-                            "humidity": 78.23,
-                            "windSpeed": 2.46,
-                            "windDirection": 48.46,
-                            "windGust": 3.34,
-                            "cloudCover": 44.53,
-                            "weatherCode": 1101
+                            "temperature": 28.78,
+                            "temperatureApparent": 34.7,
+                            "dewPoint": 25.55,
+                            "humidity": 82.73,
+                            "windSpeed": 2.88,
+                            "windDirection": 37.49,
+                            "windGust": 4.54,
+                            "cloudCover": 86.72,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T01:00:00Z",
                         "values": {
-                            "temperature": 29.14,
-                            "temperatureApparent": 34.95,
-                            "dewPoint": 25.17,
-                            "humidity": 79.17,
-                            "windSpeed": 2.98,
-                            "windDirection": 56.44,
-                            "windGust": 3.77,
-                            "cloudCover": 79.3,
-                            "weatherCode": 4000
+                            "temperature": 28.4,
+                            "temperatureApparent": 34.06,
+                            "dewPoint": 25.64,
+                            "humidity": 85.04,
+                            "windSpeed": 2.7,
+                            "windDirection": 47.8,
+                            "windGust": 4.78,
+                            "cloudCover": 92.19,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T02:00:00Z",
                         "values": {
-                            "temperature": 28.99,
-                            "temperatureApparent": 34.66,
-                            "dewPoint": 25.14,
-                            "humidity": 79.74,
-                            "windSpeed": 2.84,
-                            "windDirection": 58.79,
-                            "windGust": 3.54,
-                            "cloudCover": 89.91,
-                            "weatherCode": 4200
+                            "temperature": 28.27,
+                            "temperatureApparent": 33.8,
+                            "dewPoint": 25.65,
+                            "humidity": 85.72,
+                            "windSpeed": 2.98,
+                            "windDirection": 73.96,
+                            "windGust": 4.59,
+                            "cloudCover": 95.7,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T03:00:00Z",
                         "values": {
-                            "temperature": 29.15,
-                            "temperatureApparent": 34.96,
-                            "dewPoint": 25.17,
-                            "humidity": 79.17,
-                            "windSpeed": 3.06,
-                            "windDirection": 44.09,
-                            "windGust": 3.63,
-                            "cloudCover": 85.94,
-                            "weatherCode": 4000
+                            "temperature": 28.7,
+                            "temperatureApparent": 34.7,
+                            "dewPoint": 25.69,
+                            "humidity": 83.8,
+                            "windSpeed": 3.78,
+                            "windDirection": 83.75,
+                            "windGust": 5.36,
+                            "cloudCover": 89.58,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T04:00:00Z",
                         "values": {
-                            "temperature": 29.42,
-                            "temperatureApparent": 35.49,
-                            "dewPoint": 25.22,
-                            "humidity": 78.16,
-                            "windSpeed": 3.36,
-                            "windDirection": 47.5,
-                            "windGust": 3.78,
-                            "cloudCover": 87.3,
-                            "weatherCode": 4000
+                            "temperature": 28.96,
+                            "temperatureApparent": 35.12,
+                            "dewPoint": 25.64,
+                            "humidity": 82.3,
+                            "windSpeed": 3.71,
+                            "windDirection": 79.46,
+                            "windGust": 5.11,
+                            "cloudCover": 82.42,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T05:00:00Z",
                         "values": {
-                            "temperature": 29.51,
-                            "temperatureApparent": 35.47,
-                            "dewPoint": 25.06,
-                            "humidity": 77.05,
-                            "windSpeed": 3.19,
-                            "windDirection": 36.62,
-                            "windGust": 3.47,
-                            "cloudCover": 85.42,
-                            "weatherCode": 4000
+                            "temperature": 29.29,
+                            "temperatureApparent": 35.62,
+                            "dewPoint": 25.53,
+                            "humidity": 80.23,
+                            "windSpeed": 3.1,
+                            "windDirection": 67.5,
+                            "windGust": 4.22,
+                            "cloudCover": 61.46,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T06:00:00Z",
                         "values": {
-                            "temperature": 29.78,
-                            "temperatureApparent": 35.75,
-                            "dewPoint": 24.92,
-                            "humidity": 75.17,
-                            "windSpeed": 2.94,
-                            "windDirection": 28.19,
-                            "windGust": 3.08,
-                            "cloudCover": 92.51,
-                            "weatherCode": 4000
+                            "temperature": 29.45,
+                            "temperatureApparent": 35.69,
+                            "dewPoint": 25.36,
+                            "humidity": 78.7,
+                            "windSpeed": 2.48,
+                            "windDirection": 60.62,
+                            "windGust": 3.39,
+                            "cloudCover": 49.6,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T07:00:00Z",
                         "values": {
-                            "temperature": 29.91,
-                            "temperatureApparent": 35.77,
-                            "dewPoint": 24.75,
-                            "humidity": 73.89,
-                            "windSpeed": 3.01,
-                            "windDirection": 6.74,
-                            "windGust": 3.01,
-                            "cloudCover": 100,
-                            "weatherCode": 1001
+                            "temperature": 29.57,
+                            "temperatureApparent": 35.69,
+                            "dewPoint": 25.17,
+                            "humidity": 77.27,
+                            "windSpeed": 2.11,
+                            "windDirection": 193.32,
+                            "windGust": 2.82,
+                            "cloudCover": 68.36,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-09T08:00:00Z",
                         "values": {
-                            "temperature": 29.93,
-                            "temperatureApparent": 35.73,
-                            "dewPoint": 24.69,
-                            "humidity": 73.52,
-                            "windSpeed": 3.55,
-                            "windDirection": 349.16,
-                            "windGust": 3.55,
-                            "cloudCover": 74.18,
-                            "weatherCode": 1102
+                            "temperature": 29.79,
+                            "temperatureApparent": 36.03,
+                            "dewPoint": 25.15,
+                            "humidity": 76.17,
+                            "windSpeed": 2.59,
+                            "windDirection": 149.41,
+                            "windGust": 3.13,
+                            "cloudCover": 51.64,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T09:00:00Z",
                         "values": {
-                            "temperature": 30.15,
-                            "temperatureApparent": 35.78,
-                            "dewPoint": 24.42,
-                            "humidity": 71.46,
-                            "windSpeed": 3.42,
-                            "windDirection": 347.01,
-                            "windGust": 3.42,
-                            "cloudCover": 82.81,
-                            "weatherCode": 1001
+                            "temperature": 29.88,
+                            "temperatureApparent": 36.21,
+                            "dewPoint": 25.18,
+                            "humidity": 75.94,
+                            "windSpeed": 3.15,
+                            "windDirection": 109.06,
+                            "windGust": 3.63,
+                            "cloudCover": 52.67,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T10:00:00Z",
                         "values": {
-                            "temperature": 30.25,
-                            "temperatureApparent": 35.86,
-                            "dewPoint": 24.37,
-                            "humidity": 70.8,
-                            "windSpeed": 3.54,
-                            "windDirection": 353.59,
-                            "windGust": 3.54,
-                            "cloudCover": 87.09,
-                            "weatherCode": 1001
+                            "temperature": 29.87,
+                            "temperatureApparent": 35.97,
+                            "dewPoint": 24.99,
+                            "humidity": 75.11,
+                            "windSpeed": 3.76,
+                            "windDirection": 86.56,
+                            "windGust": 4.21,
+                            "cloudCover": 51.46,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T11:00:00Z",
                         "values": {
-                            "temperature": 30.28,
-                            "temperatureApparent": 35.94,
-                            "dewPoint": 24.4,
-                            "humidity": 70.81,
-                            "windSpeed": 3.64,
-                            "windDirection": 344.2,
-                            "windGust": 3.64,
-                            "cloudCover": 89.66,
-                            "weatherCode": 1001
+                            "temperature": 30.15,
+                            "temperatureApparent": 36.08,
+                            "dewPoint": 24.69,
+                            "humidity": 72.58,
+                            "windSpeed": 3.51,
+                            "windDirection": 63.01,
+                            "windGust": 3.79,
+                            "cloudCover": 45.12,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T12:00:00Z",
                         "values": {
-                            "temperature": 30.34,
-                            "temperatureApparent": 35.9,
-                            "dewPoint": 24.28,
-                            "humidity": 70.1,
-                            "windSpeed": 3.34,
-                            "windDirection": 333.84,
-                            "windGust": 3.54,
-                            "cloudCover": 90.65,
-                            "weatherCode": 1001
+                            "temperature": 30.37,
+                            "temperatureApparent": 36.03,
+                            "dewPoint": 24.36,
+                            "humidity": 70.31,
+                            "windSpeed": 3.14,
+                            "windDirection": 45.77,
+                            "windGust": 3.26,
+                            "cloudCover": 36.97,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-09T13:00:00Z",
                         "values": {
-                            "temperature": 30.39,
-                            "temperatureApparent": 35.73,
-                            "dewPoint": 24.05,
-                            "humidity": 68.93,
-                            "windSpeed": 2.72,
-                            "windDirection": 345.28,
-                            "windGust": 2.81,
-                            "cloudCover": 83.68,
-                            "weatherCode": 1001
+                            "temperature": 30.48,
+                            "temperatureApparent": 35.85,
+                            "dewPoint": 24.04,
+                            "humidity": 68.53,
+                            "windSpeed": 2.52,
+                            "windDirection": 28.59,
+                            "windGust": 2.52,
+                            "cloudCover": 15.16,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-09T14:00:00Z",
                         "values": {
-                            "temperature": 30.38,
-                            "temperatureApparent": 35.46,
-                            "dewPoint": 23.81,
-                            "humidity": 67.94,
-                            "windSpeed": 1.91,
-                            "windDirection": 17.32,
-                            "windGust": 1.91,
-                            "cloudCover": 91.88,
-                            "weatherCode": 1001
+                            "temperature": 30.45,
+                            "temperatureApparent": 35.58,
+                            "dewPoint": 23.82,
+                            "humidity": 67.74,
+                            "windSpeed": 1.73,
+                            "windDirection": 63.36,
+                            "windGust": 1.73,
+                            "cloudCover": 57.54,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T15:00:00Z",
                         "values": {
-                            "temperature": 30.3,
-                            "temperatureApparent": 35.22,
-                            "dewPoint": 23.69,
-                            "humidity": 67.78,
+                            "temperature": 30.39,
+                            "temperatureApparent": 35.49,
+                            "dewPoint": 23.83,
+                            "humidity": 67.99,
                             "windSpeed": 1.55,
-                            "windDirection": 62.44,
+                            "windDirection": 74.12,
                             "windGust": 1.55,
-                            "cloudCover": 94.58,
-                            "weatherCode": 1001
+                            "cloudCover": 68.6,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-09T16:00:00Z",
                         "values": {
-                            "temperature": 30.2,
-                            "temperatureApparent": 35.2,
-                            "dewPoint": 23.81,
-                            "humidity": 68.7,
-                            "windSpeed": 1.79,
-                            "windDirection": 78.83,
-                            "windGust": 1.79,
-                            "cloudCover": 95.9,
+                            "temperature": 30.35,
+                            "temperatureApparent": 35.63,
+                            "dewPoint": 24.01,
+                            "humidity": 68.92,
+                            "windSpeed": 1.94,
+                            "windDirection": 85.74,
+                            "windGust": 1.94,
+                            "cloudCover": 76.45,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T17:00:00Z",
                         "values": {
-                            "temperature": 30.2,
-                            "temperatureApparent": 35.5,
-                            "dewPoint": 24.1,
+                            "temperature": 30.35,
+                            "temperatureApparent": 35.88,
+                            "dewPoint": 24.25,
                             "humidity": 69.91,
-                            "windSpeed": 2.49,
-                            "windDirection": 98.56,
-                            "windGust": 2.49,
-                            "cloudCover": 96.73,
+                            "windSpeed": 2.51,
+                            "windDirection": 81.32,
+                            "windGust": 2.51,
+                            "cloudCover": 80.61,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T18:00:00Z",
                         "values": {
-                            "temperature": 30.18,
-                            "temperatureApparent": 35.4,
-                            "dewPoint": 24.02,
-                            "humidity": 69.64,
-                            "windSpeed": 2.1,
-                            "windDirection": 95.29,
-                            "windGust": 2.1,
-                            "cloudCover": 97.31,
+                            "temperature": 30.35,
+                            "temperatureApparent": 35.87,
+                            "dewPoint": 24.24,
+                            "humidity": 69.88,
+                            "windSpeed": 2.42,
+                            "windDirection": 79.07,
+                            "windGust": 2.42,
+                            "cloudCover": 83.69,
                             "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-09T19:00:00Z",
                         "values": {
-                            "temperature": 30.09,
-                            "temperatureApparent": 35.25,
+                            "temperature": 30.25,
+                            "temperatureApparent": 35.48,
                             "dewPoint": 24.01,
-                            "humidity": 69.95,
-                            "windSpeed": 2.03,
-                            "windDirection": 66.04,
-                            "windGust": 2.03,
-                            "cloudCover": 100,
-                            "weatherCode": 1001
+                            "humidity": 69.31,
+                            "windSpeed": 2.47,
+                            "windDirection": 81.36,
+                            "windGust": 2.47,
+                            "cloudCover": 74.83,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-09T20:00:00Z",
                         "values": {
-                            "temperature": 30.05,
-                            "temperatureApparent": 35.22,
-                            "dewPoint": 24.04,
-                            "humidity": 70.25,
-                            "windSpeed": 2.26,
-                            "windDirection": 29.52,
-                            "windGust": 2.26,
-                            "cloudCover": 98.57,
-                            "weatherCode": 1001
+                            "temperature": 30.15,
+                            "temperatureApparent": 35.34,
+                            "dewPoint": 24.02,
+                            "humidity": 69.75,
+                            "windSpeed": 2.4,
+                            "windDirection": 68.17,
+                            "windGust": 2.41,
+                            "cloudCover": 47.89,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T21:00:00Z",
                         "values": {
-                            "temperature": 29.96,
-                            "temperatureApparent": 35.12,
-                            "dewPoint": 24.07,
-                            "humidity": 70.75,
-                            "windSpeed": 2.59,
-                            "windDirection": 34.06,
-                            "windGust": 2.59,
-                            "cloudCover": 99.05,
-                            "weatherCode": 1001
+                            "temperature": 30.05,
+                            "temperatureApparent": 35.13,
+                            "dewPoint": 23.96,
+                            "humidity": 69.89,
+                            "windSpeed": 2.19,
+                            "windDirection": 52.07,
+                            "windGust": 2.19,
+                            "cloudCover": 49.84,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T22:00:00Z",
                         "values": {
-                            "temperature": 29.92,
-                            "temperatureApparent": 34.89,
-                            "dewPoint": 23.9,
-                            "humidity": 70.18,
-                            "windSpeed": 2.23,
-                            "windDirection": 22.46,
-                            "windGust": 2.23,
-                            "cloudCover": 96.43,
-                            "weatherCode": 1001
+                            "temperature": 29.95,
+                            "temperatureApparent": 34.84,
+                            "dewPoint": 23.81,
+                            "humidity": 69.67,
+                            "windSpeed": 1.85,
+                            "windDirection": 41.56,
+                            "windGust": 1.85,
+                            "cloudCover": 41.33,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-09T23:00:00Z",
                         "values": {
-                            "temperature": 29.76,
-                            "temperatureApparent": 34.23,
-                            "dewPoint": 23.46,
-                            "humidity": 68.97,
-                            "windSpeed": 0.33,
-                            "windDirection": 37.47,
-                            "windGust": 0.4,
-                            "cloudCover": 85.21,
-                            "weatherCode": 1001
+                            "temperature": 29.85,
+                            "temperatureApparent": 34.67,
+                            "dewPoint": 23.78,
+                            "humidity": 69.96,
+                            "windSpeed": 1.78,
+                            "windDirection": 49.56,
+                            "windGust": 1.78,
+                            "cloudCover": 35.59,
+                            "weatherCode": 1100
                         }
                     },
                     {
                         "startTime": "2021-10-10T00:00:00Z",
                         "values": {
-                            "temperature": 29.74,
-                            "temperatureApparent": 34.22,
-                            "dewPoint": 23.48,
-                            "humidity": 69.11,
-                            "windSpeed": 0.71,
-                            "windDirection": 168.57,
-                            "windGust": 0.8,
-                            "cloudCover": 87.69,
-                            "weatherCode": 1001
+                            "temperature": 29.75,
+                            "temperatureApparent": 34.41,
+                            "dewPoint": 23.67,
+                            "humidity": 69.9,
+                            "windSpeed": 1.42,
+                            "windDirection": 62.56,
+                            "windGust": 1.42,
+                            "cloudCover": 44.66,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-10T01:00:00Z",
                         "values": {
-                            "temperature": 29.75,
-                            "temperatureApparent": 34.25,
-                            "dewPoint": 23.51,
-                            "humidity": 69.19,
-                            "windSpeed": 0.41,
-                            "windDirection": 125.51,
-                            "windGust": 0.41,
-                            "cloudCover": 57.83,
-                            "weatherCode": 1101
+                            "temperature": 29.72,
+                            "temperatureApparent": 34.26,
+                            "dewPoint": 23.56,
+                            "humidity": 69.54,
+                            "windSpeed": 0.75,
+                            "windDirection": 61.59,
+                            "windGust": 0.75,
+                            "cloudCover": 93.2,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-10T02:00:00Z",
                         "values": {
                             "temperature": 29.75,
-                            "temperatureApparent": 34.26,
-                            "dewPoint": 23.51,
-                            "humidity": 69.23,
-                            "windSpeed": 0.87,
-                            "windDirection": 48.6,
-                            "windGust": 0.87,
-                            "cloudCover": 34.38,
-                            "weatherCode": 1100
+                            "temperatureApparent": 34.32,
+                            "dewPoint": 23.58,
+                            "humidity": 69.49,
+                            "windSpeed": 0.83,
+                            "windDirection": 1.57,
+                            "windGust": 0.83,
+                            "cloudCover": 86.33,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-10T03:00:00Z",
                         "values": {
                             "temperature": 29.75,
-                            "temperatureApparent": 34.27,
-                            "dewPoint": 23.53,
-                            "humidity": 69.28,
-                            "windSpeed": 1,
-                            "windDirection": 29.26,
-                            "windGust": 1,
-                            "cloudCover": 28.39,
-                            "weatherCode": 1100
+                            "temperatureApparent": 34.42,
+                            "dewPoint": 23.68,
+                            "humidity": 69.95,
+                            "windSpeed": 1.32,
+                            "windDirection": 35.57,
+                            "windGust": 1.32,
+                            "cloudCover": 90.81,
+                            "weatherCode": 1001
                         }
                     },
                     {
                         "startTime": "2021-10-10T04:00:00Z",
                         "values": {
-                            "temperature": 29.76,
-                            "temperatureApparent": 34.36,
-                            "dewPoint": 23.6,
-                            "humidity": 69.55,
-                            "windSpeed": 1.31,
-                            "windDirection": 22.63,
-                            "windGust": 1.31,
-                            "cloudCover": 24.34,
-                            "weatherCode": 1100
+                            "temperature": 29.75,
+                            "temperatureApparent": 34.47,
+                            "dewPoint": 23.73,
+                            "humidity": 70.14,
+                            "windSpeed": 1.41,
+                            "windDirection": 55.91,
+                            "windGust": 1.41,
+                            "cloudCover": 74.02,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-10T05:00:00Z",
                         "values": {
-                            "temperature": 29.85,
-                            "temperatureApparent": 34.55,
-                            "dewPoint": 23.66,
-                            "humidity": 69.44,
-                            "windSpeed": 1.54,
-                            "windDirection": 310.71,
-                            "windGust": 1.54,
-                            "cloudCover": 21.14,
-                            "weatherCode": 1100
+                            "temperature": 29.76,
+                            "temperatureApparent": 34.4,
+                            "dewPoint": 23.64,
+                            "humidity": 69.72,
+                            "windSpeed": 1.14,
+                            "windDirection": 45.18,
+                            "windGust": 1.14,
+                            "cloudCover": 62.75,
+                            "weatherCode": 1102
                         }
                     },
                     {
                         "startTime": "2021-10-10T06:00:00Z",
                         "values": {
-                            "temperature": 29.93,
-                            "temperatureApparent": 34.63,
-                            "dewPoint": 23.62,
-                            "humidity": 68.98,
-                            "windSpeed": 1.47,
-                            "windDirection": 325.34,
-                            "windGust": 1.47,
-                            "cloudCover": 18.7,
-                            "weatherCode": 1100
+                            "temperature": 29.85,
+                            "temperatureApparent": 34.68,
+                            "dewPoint": 23.79,
+                            "humidity": 69.96,
+                            "windSpeed": 1.67,
+                            "windDirection": 33.05,
+                            "windGust": 1.67,
+                            "cloudCover": 54.96,
+                            "weatherCode": 1101
                         }
                     },
                     {
                         "startTime": "2021-10-10T07:00:00Z",
                         "values": {
-                            "temperature": 30.02,
-                            "temperatureApparent": 34.83,
-                            "dewPoint": 23.7,
-                            "humidity": 68.94,
-                            "windSpeed": 1.82,
-                            "windDirection": 348.99,
-                            "windGust": 1.82,
-                            "cloudCover": 11.15,
+                            "temperature": 29.97,
+                            "temperatureApparent": 34.8,
+                            "dewPoint": 23.75,
+                            "humidity": 69.36,
+                            "windSpeed": 1.68,
+                            "windDirection": 16.53,
+                            "windGust": 1.72,
+                            "cloudCover": 11.71,
                             "weatherCode": 1000
                         }
                     },
                     {
                         "startTime": "2021-10-10T08:00:00Z",
                         "values": {
-                            "temperature": 30.06,
-                            "temperatureApparent": 35.05,
-                            "dewPoint": 23.86,
-                            "humidity": 69.45,
-                            "windSpeed": 2.4,
-                            "windDirection": 350.53,
-                            "windGust": 2.4,
-                            "cloudCover": 9.01,
+                            "temperature": 30.04,
+                            "temperatureApparent": 35.02,
+                            "dewPoint": 23.87,
+                            "humidity": 69.57,
+                            "windSpeed": 2.17,
+                            "windDirection": 7.15,
+                            "windGust": 2.21,
+                            "cloudCover": 8.69,
                             "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T09:00:00Z",
+                        "values": {
+                            "temperature": 30.18,
+                            "temperatureApparent": 35.15,
+                            "dewPoint": 23.8,
+                            "humidity": 68.72,
+                            "windSpeed": 2.04,
+                            "windDirection": 120.38,
+                            "windGust": 2.12,
+                            "cloudCover": 7.66,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T10:00:00Z",
+                        "values": {
+                            "temperature": 30.28,
+                            "temperatureApparent": 35.29,
+                            "dewPoint": 23.79,
+                            "humidity": 68.26,
+                            "windSpeed": 2.06,
+                            "windDirection": 352.44,
+                            "windGust": 2.2,
+                            "cloudCover": 7.1,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T11:00:00Z",
+                        "values": {
+                            "temperature": 30.35,
+                            "temperatureApparent": 35.41,
+                            "dewPoint": 23.81,
+                            "humidity": 68.1,
+                            "windSpeed": 2.21,
+                            "windDirection": 325.68,
+                            "windGust": 2.21,
+                            "cloudCover": 6.79,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T12:00:00Z",
+                        "values": {
+                            "temperature": 30.42,
+                            "temperatureApparent": 35.41,
+                            "dewPoint": 23.72,
+                            "humidity": 67.44,
+                            "windSpeed": 1.99,
+                            "windDirection": 12.97,
+                            "windGust": 1.99,
+                            "cloudCover": 6.58,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T13:00:00Z",
+                        "values": {
+                            "temperature": 30.49,
+                            "temperatureApparent": 35.52,
+                            "dewPoint": 23.73,
+                            "humidity": 67.23,
+                            "windSpeed": 2.05,
+                            "windDirection": 33.31,
+                            "windGust": 2.05,
+                            "cloudCover": 10.63,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T14:00:00Z",
+                        "values": {
+                            "temperature": 30.46,
+                            "temperatureApparent": 35.56,
+                            "dewPoint": 23.79,
+                            "humidity": 67.57,
+                            "windSpeed": 2.01,
+                            "windDirection": 57.56,
+                            "windGust": 2.01,
+                            "cloudCover": 9.87,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T15:00:00Z",
+                        "values": {
+                            "temperature": 30.39,
+                            "temperatureApparent": 35.6,
+                            "dewPoint": 23.94,
+                            "humidity": 68.46,
+                            "windSpeed": 2.04,
+                            "windDirection": 79.47,
+                            "windGust": 2.05,
+                            "cloudCover": 10.11,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T16:00:00Z",
+                        "values": {
+                            "temperature": 30.29,
+                            "temperatureApparent": 35.37,
+                            "dewPoint": 23.85,
+                            "humidity": 68.47,
+                            "windSpeed": 1.65,
+                            "windDirection": 108.27,
+                            "windGust": 1.65,
+                            "cloudCover": 9.43,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T17:00:00Z",
+                        "values": {
+                            "temperature": 30.25,
+                            "temperatureApparent": 35.64,
+                            "dewPoint": 24.15,
+                            "humidity": 69.89,
+                            "windSpeed": 2.48,
+                            "windDirection": 125.98,
+                            "windGust": 2.48,
+                            "cloudCover": 9.21,
+                            "weatherCode": 1000
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T18:00:00Z",
+                        "values": {
+                            "temperature": 30.25,
+                            "temperatureApparent": 35.59,
+                            "dewPoint": 24.11,
+                            "humidity": 69.73,
+                            "windSpeed": 2.5,
+                            "windDirection": 129.58,
+                            "windGust": 2.5,
+                            "cloudCover": 18.9,
+                            "weatherCode": 1100
+                        }
+                    },
+                    {
+                        "startTime": "2021-10-10T19:00:00Z",
+                        "values": {
+                            "temperature": 30.25,
+                            "temperatureApparent": 35.56,
+                            "dewPoint": 24.09,
+                            "humidity": 69.64,
+                            "windSpeed": 2.5,
+                            "windDirection": 84.32,
+                            "windGust": 2.5,
+                            "cloudCover": 100,
+                            "weatherCode": 1001
                         }
                     }
                 ]
