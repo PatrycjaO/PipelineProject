@@ -15,17 +15,25 @@ try:
             host='127.0.0.1', port=tunnel.local_bind_port,
             database=st.secrets["DB_NAME"],
         )
-    def run_query(query):
-        with connection.cursor() as cur:
-            cur.execute(query)
-            return cur.fetchall()
+        @st.cache(allow_output_mutation=True, hash_funcs={"_thread.RLock": lambda _: None})
+        def init_connection():
+            return psycopg2.connect(**st.secrets["postgres"])
+        
+        conn = init_connection()
+        st.print('connection initiated')
 
-    rows = run_query("SELECT * FROM energytable;")
+        @st.cache(ttl=600)
+        def run_query(query):
+            with conn.cursor() as cur:
+                cur.execute(query)
+                return cur.fetchall()
 
-    # Print results.
-    for row in rows:
-        st.write(f"{row[0]} has a :{row[1]}:")
-        #st.write('ssh connection established')
-        connection.close()
+        rows = run_query("SELECT * FROM energytable;")
+
+        # Print results.
+        for row in rows:
+            st.write(f"{row[0]} has a :{row[1]}:")
+            #st.write('ssh connection established')
+            connection.close()
 except:
     st.write('ssh connection failed')
