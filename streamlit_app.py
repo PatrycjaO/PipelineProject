@@ -15,7 +15,17 @@ try:
             host='127.0.0.1', port=tunnel.local_bind_port,
             database=st.secrets["DB_NAME"],
         )
-        st.write('ssh connection established')
-        connection.close()
+        def run_query(query):
+            with connection.cursor() as cur:
+                cur.execute(query)
+                return cur.fetchall()
+
+        rows = run_query("SELECT * FROM energytable;")
+
+        # Print results.
+        for row in rows:
+            st.write(f"{row[0]} has a :{row[1]}:")
+            #st.write('ssh connection established')
+            connection.close()
 except:
     st.write('ssh connection failed')

@@ -4,7 +4,7 @@ import sys
 import psycopg2
 import psycopg2.extras
 
-def write2database(inputFile):
+def write2database(inputFile1, inputFile2):
 
     DB_HOST = '****'
     DB_NAME = '****'
@@ -32,12 +32,17 @@ def write2database(inputFile):
             "cloudCover_pct" real,
             "weathercode" integer
         );
+        
         """)
         print('Table created')
     except:
         print('Table not created')
 
-    with open(inputFile, 'r') as f:
+    with open(inputFile1, 'r') as f:
+        next(f)
+        cursor.copy_from(f, 'facttable', sep=',')
+    
+    with open(inputFile2, 'r') as f:
         next(f)
         cursor.copy_from(f, 'forecastdata', sep=',')
 
@@ -46,8 +51,10 @@ def write2database(inputFile):
     conn.close()
 
 if __name__ == "__main__":
-    INPUT_FILE = sys.argv[1] # this is the csv file to move to PostgreSQL Database
+    INPUT_FILE1 = sys.argv[1] # this is the csv file to move to PostgreSQL Database
+    INPUT_FILE2 = sys.argv[2]
     try:
-        write2database(INPUT_FILE)
+        write2database(INPUT_FILE1)
+        write2database(INPUT_FILE2)
     except:
         print("Error writing csv to database")
