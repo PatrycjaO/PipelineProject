@@ -11,7 +11,7 @@ try:
         ('ssh.pythonanywhere.com'),
         ssh_username=st.secrets["PA_USER"], ssh_password=st.secrets["PA_PASS"],
         remote_bind_address=(st.secrets["DB_HOST"], st.secrets["DB_PORT"])) as tunnel:
-        st.write('ssh connected')
+        #st.write('ssh connected')
         connection = psycopg2.connect(
             user=st.secrets["DB_USER"], password=st.secrets["DB_PASS"],
             host='127.0.0.1', port=tunnel.local_bind_port,
