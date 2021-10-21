@@ -103,8 +103,5 @@ try:
 
     connection.close()
 except:
-<<<<<<< HEAD
     st.write('timeout')
-=======
-    st.write('timeout')
->>>>>>> d83d422eb187a250de17003b20bb94401bdf5f66
+
