@@ -17,12 +17,12 @@ Portfolio Project for Pipeline Academy
 
 ### Data Acquisition
 
-hourly via GitHub Actions:
+**hourly via GitHub Actions:**
 
 - wind speed data scraping from https://energiemonitor.bayernwerk.de/ for three different locations
 - wind power data scraping from https://energiemonitor.bayernwerk.de/ for three different locations
 
-daily via GitHub Actions:
+**daily via GitHub Actions:**
 
 - wind speed forecast data from tomorrow.io API acquisition 
 
@@ -58,7 +58,7 @@ https://share.streamlit.io/patrycjao/pipelineproject/main
 - Migration to AWS + Prefect
 - expand tool to more regions
 
-For further information, see PipelineProject.pdf
+For further information, see https://github.com/PatrycjaO/PipelineProject/blob/main/PipelineProject.pdf
 
 
 
