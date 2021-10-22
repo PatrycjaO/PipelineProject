@@ -46,7 +46,7 @@ The project is currently set up for three different regions. The pipeline can be
 
 Automated ETL pipeline completed and deployed on streamlit.io
 
-(https://share.streamlit.io/patrycjao/pipelineproject/main)
+https://share.streamlit.io/patrycjao/pipelineproject/main
 
 ## Next Steps
 
