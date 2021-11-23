@@ -12,6 +12,13 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
+    - name: Run tests
+      env:
+          DB_HOST: ${{secrets.DB_HOST}}
+          DB_NAME: ${{secrets.DB_NAME}}
+          DB_USER: ${{secrets.DB_USER}}
+          DB_PASS: ${{secrets.DB_PASS}}
+          DB_PORT: ${{secrets.DB_PORT}}
     - name: Fetch latest data
       run: |-
         python3 monitor.py
