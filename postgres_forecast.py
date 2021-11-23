@@ -6,11 +6,11 @@ import psycopg2.extras
 
 def write2database(inputFile1, inputFile2):
 
-    DB_HOST = '****'
-    DB_NAME = '****'
-    DB_USER = '****'
-    DB_PASS = '****'
-    DB_PORT = '****'
+    DB_HOST = os.environ['DB_HOST']
+    DB_NAME = os.environ['DB_NAME']
+    DB_USER = os.environ['DB_USER']
+    DB_PASS = os.environ['DB_PASS']
+    DB_PORT = os.environ['DB_PORT']
 
     try:
         conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port=DB_PORT)
