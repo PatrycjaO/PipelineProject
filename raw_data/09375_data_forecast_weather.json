@@ -3,1112 +3,776 @@
         "timelines": [
             {
                 "timestep": "1h",
-                "endTime": "2022-03-13T19:00:00Z",
-                "startTime": "2022-03-09T07:00:00Z",
+                "endTime": "2022-03-14T19:00:00Z",
+                "startTime": "2022-03-10T07:00:00Z",
                 "intervals": [
-                    {
-                        "startTime": "2022-03-09T07:00:00Z",
-                        "values": {
-                            "cloudCover": 3,
-                            "dewPoint": -4.63,
-                            "humidity": 89,
-                            "temperature": -3,
-                            "temperatureApparent": -3,
-                            "weatherCode": 1000,
-                            "windDirection": 355.69,
-                            "windGust": 1.63,
-                            "windSpeed": 0.81
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T08:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.42,
-                            "humidity": 79.02,
-                            "temperature": 0.13,
-                            "temperatureApparent": 0.13,
-                            "weatherCode": 1000,
-                            "windDirection": 344.15,
-                            "windGust": 1.62,
-                            "windSpeed": 0.56
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T09:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.41,
-                            "humidity": 64.94,
-                            "temperature": 2.73,
-                            "temperatureApparent": 2.73,
-                            "weatherCode": 1000,
-                            "windDirection": 346.6,
-                            "windGust": 1.71,
-                            "windSpeed": 0.32
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T10:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.24,
-                            "humidity": 56.71,
-                            "temperature": 4.71,
-                            "temperatureApparent": 4.71,
-                            "weatherCode": 1000,
-                            "windDirection": 160.9,
-                            "windGust": 1.4,
-                            "windSpeed": 0.31
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T11:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.43,
-                            "humidity": 47.09,
-                            "temperature": 6.23,
-                            "temperatureApparent": 6.23,
-                            "weatherCode": 1000,
-                            "windDirection": 147.95,
-                            "windGust": 2.62,
-                            "windSpeed": 0.83
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T12:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -5.12,
-                            "humidity": 40.94,
-                            "temperature": 7.48,
-                            "temperatureApparent": 7.48,
-                            "weatherCode": 1000,
-                            "windDirection": 136.46,
-                            "windGust": 2.84,
-                            "windSpeed": 0.86
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T13:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.66,
-                            "humidity": 39.8,
-                            "temperature": 8.31,
-                            "temperatureApparent": 8.31,
-                            "weatherCode": 1000,
-                            "windDirection": 137.02,
-                            "windGust": 2.38,
-                            "windSpeed": 0.47
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T14:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.64,
-                            "humidity": 41.59,
-                            "temperature": 8.73,
-                            "temperatureApparent": 8.73,
-                            "weatherCode": 1000,
-                            "windDirection": 104.63,
-                            "windGust": 1.27,
-                            "windSpeed": 0.26
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T15:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.22,
-                            "humidity": 42.6,
-                            "temperature": 8.78,
-                            "temperatureApparent": 8.78,
-                            "weatherCode": 1000,
-                            "windDirection": 65.55,
-                            "windGust": 1.1,
-                            "windSpeed": 0.35
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T16:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -2.99,
-                            "humidity": 44.88,
-                            "temperature": 8.41,
-                            "temperatureApparent": 8.41,
-                            "weatherCode": 1000,
-                            "windDirection": 65.26,
-                            "windGust": 1.08,
-                            "windSpeed": 0.38
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T17:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.39,
-                            "humidity": 45.99,
-                            "temperature": 7.38,
-                            "temperatureApparent": 7.38,
-                            "weatherCode": 1000,
-                            "windDirection": 153.25,
-                            "windGust": 0.78,
-                            "windSpeed": 0.26
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T18:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.54,
-                            "humidity": 49.53,
-                            "temperature": 5.75,
-                            "temperatureApparent": 5.75,
-                            "weatherCode": 1000,
-                            "windDirection": 63.79,
-                            "windGust": 0.78,
-                            "windSpeed": 0.55
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T19:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -2.79,
-                            "humidity": 65.08,
-                            "temperature": 2.97,
-                            "temperatureApparent": 2.97,
-                            "weatherCode": 1000,
-                            "windDirection": 53.32,
-                            "windGust": 1.58,
-                            "windSpeed": 1.05
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T20:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -2.91,
-                            "humidity": 77.37,
-                            "temperature": 1,
-                            "temperatureApparent": 1,
-                            "weatherCode": 1000,
-                            "windDirection": 52.88,
-                            "windGust": 2.03,
-                            "windSpeed": 1.1
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T21:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.34,
-                            "humidity": 79.98,
-                            "temperature": 0.35,
-                            "temperatureApparent": 0.35,
-                            "weatherCode": 1000,
-                            "windDirection": 41.74,
-                            "windGust": 1.94,
-                            "windSpeed": 0.94
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T22:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.28,
-                            "humidity": 83.49,
-                            "temperature": -0.21,
-                            "temperatureApparent": -0.21,
-                            "weatherCode": 1000,
-                            "windDirection": 24.03,
-                            "windGust": 1.93,
-                            "windSpeed": 1.01
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-09T23:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.41,
-                            "humidity": 83.95,
-                            "temperature": -0.59,
-                            "temperatureApparent": -0.59,
-                            "weatherCode": 1000,
-                            "windDirection": 18.26,
-                            "windGust": 1.92,
-                            "windSpeed": 0.97
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T00:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.67,
-                            "humidity": 84.07,
-                            "temperature": -0.98,
-                            "temperatureApparent": -0.98,
-                            "weatherCode": 1000,
-                            "windDirection": 41.68,
-                            "windGust": 1.83,
-                            "windSpeed": 0.97
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T01:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -3.91,
-                            "humidity": 85,
-                            "temperature": -1.36,
-                            "temperatureApparent": -1.36,
-                            "weatherCode": 1000,
-                            "windDirection": 35.99,
-                            "windGust": 1.73,
-                            "windSpeed": 0.79
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T02:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.03,
-                            "humidity": 86.2,
-                            "temperature": -1.71,
-                            "temperatureApparent": -1.71,
-                            "weatherCode": 1000,
-                            "windDirection": 28.3,
-                            "windGust": 1.52,
-                            "windSpeed": 0.83
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T03:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.1,
-                            "humidity": 87.71,
-                            "temperature": -1.96,
-                            "temperatureApparent": -1.96,
-                            "weatherCode": 1000,
-                            "windDirection": 17.06,
-                            "windGust": 1.64,
-                            "windSpeed": 0.87
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T04:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.16,
-                            "humidity": 87.96,
-                            "temperature": -2.16,
-                            "temperatureApparent": -2.16,
-                            "weatherCode": 1000,
-                            "windDirection": 21.02,
-                            "windGust": 1.64,
-                            "windSpeed": 0.88
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T05:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.28,
-                            "humidity": 88.55,
-                            "temperature": -2.45,
-                            "temperatureApparent": -2.45,
-                            "weatherCode": 1000,
-                            "windDirection": 12.58,
-                            "windGust": 1.66,
-                            "windSpeed": 0.92
-                        }
-                    },
-                    {
-                        "startTime": "2022-03-10T06:00:00Z",
-                        "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -4.51,
-                            "humidity": 90.08,
-                            "temperature": -2.93,
-                            "temperatureApparent": -2.93,
-                            "weatherCode": 1000,
-                            "windDirection": 9.62,
-                            "windGust": 1.73,
-                            "windSpeed": 0.99
-                        }
-                    },
                     {
                         "startTime": "2022-03-10T07:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -4.37,
-                            "humidity": 85.87,
-                            "temperature": -2.06,
-                            "temperatureApparent": -2.06,
+                            "dewPoint": -3.69,
+                            "humidity": 88,
+                            "temperature": -2.13,
+                            "temperatureApparent": -2.13,
                             "weatherCode": 1000,
-                            "windDirection": 18.01,
-                            "windGust": 1.72,
-                            "windSpeed": 0.82
+                            "windDirection": 352.63,
+                            "windGust": 1.5,
+                            "windSpeed": 0.69
                         }
                     },
                     {
                         "startTime": "2022-03-10T08:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.09,
-                            "humidity": 77.48,
-                            "temperature": 0.86,
-                            "temperatureApparent": 0.86,
+                            "dewPoint": -2.67,
+                            "humidity": 79.43,
+                            "temperature": 0.94,
+                            "temperatureApparent": 0.94,
                             "weatherCode": 1000,
-                            "windDirection": 320.98,
-                            "windGust": 1.59,
-                            "windSpeed": 0.69
+                            "windDirection": 327.25,
+                            "windGust": 1.38,
+                            "windSpeed": 0.39
                         }
                     },
                     {
                         "startTime": "2022-03-10T09:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.29,
-                            "humidity": 61.27,
-                            "temperature": 3.76,
-                            "temperatureApparent": 3.76,
+                            "dewPoint": -2.19,
+                            "humidity": 64.78,
+                            "temperature": 4.14,
+                            "temperatureApparent": 4.14,
                             "weatherCode": 1000,
-                            "windDirection": 81.64,
-                            "windGust": 1.43,
-                            "windSpeed": 0.38
+                            "windDirection": 34.45,
+                            "windGust": 0.98,
+                            "windSpeed": 0.09
                         }
                     },
                     {
                         "startTime": "2022-03-10T10:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -2.85,
-                            "humidity": 53.24,
-                            "temperature": 6.23,
-                            "temperatureApparent": 6.23,
+                            "dewPoint": -2.41,
+                            "humidity": 52.95,
+                            "temperature": 6.6,
+                            "temperatureApparent": 6.6,
                             "weatherCode": 1000,
-                            "windDirection": 135.34,
-                            "windGust": 3.47,
-                            "windSpeed": 1.57
+                            "windDirection": 125.62,
+                            "windGust": 2.82,
+                            "windSpeed": 1.08
                         }
                     },
                     {
                         "startTime": "2022-03-10T11:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.05,
-                            "humidity": 46.65,
-                            "temperature": 7.79,
-                            "temperatureApparent": 7.79,
+                            "dewPoint": -3.34,
+                            "humidity": 43.71,
+                            "temperature": 8.41,
+                            "temperatureApparent": 8.41,
                             "weatherCode": 1000,
-                            "windDirection": 134.93,
-                            "windGust": 5.7,
-                            "windSpeed": 2.71
+                            "windDirection": 132.77,
+                            "windGust": 5.52,
+                            "windSpeed": 2.6
                         }
                     },
                     {
                         "startTime": "2022-03-10T12:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.47,
-                            "humidity": 41.41,
-                            "temperature": 9.02,
-                            "temperatureApparent": 9.02,
+                            "dewPoint": -3.27,
+                            "humidity": 40.71,
+                            "temperature": 9.49,
+                            "temperatureApparent": 9.49,
                             "weatherCode": 1000,
-                            "windDirection": 121.39,
-                            "windGust": 7.52,
-                            "windSpeed": 3.63
+                            "windDirection": 125.77,
+                            "windGust": 6.3,
+                            "windSpeed": 2.9
                         }
                     },
                     {
                         "startTime": "2022-03-10T13:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -2.96,
-                            "humidity": 40.93,
-                            "temperature": 9.73,
-                            "temperatureApparent": 9.73,
+                            "dewPoint": -3.74,
+                            "humidity": 37.24,
+                            "temperature": 10.25,
+                            "temperatureApparent": 10.25,
                             "weatherCode": 1000,
-                            "windDirection": 119.23,
-                            "windGust": 7.58,
-                            "windSpeed": 3.28
+                            "windDirection": 115.62,
+                            "windGust": 6.16,
+                            "windSpeed": 2.96
                         }
                     },
                     {
                         "startTime": "2022-03-10T14:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -1.6,
-                            "humidity": 44.35,
-                            "temperature": 9.96,
-                            "temperatureApparent": 9.96,
+                            "dewPoint": -2.37,
+                            "humidity": 40.17,
+                            "temperature": 10.55,
+                            "temperatureApparent": 10.55,
                             "weatherCode": 1000,
-                            "windDirection": 110.5,
-                            "windGust": 6.73,
-                            "windSpeed": 3.05
+                            "windDirection": 102.55,
+                            "windGust": 6.31,
+                            "windSpeed": 3.15
                         }
                     },
                     {
                         "startTime": "2022-03-10T15:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -1.15,
-                            "humidity": 45.83,
-                            "temperature": 9.93,
-                            "temperatureApparent": 9.93,
+                            "dewPoint": -1.48,
+                            "humidity": 43.62,
+                            "temperature": 10.27,
+                            "temperatureApparent": 10.27,
                             "weatherCode": 1000,
-                            "windDirection": 104.31,
-                            "windGust": 6.1,
-                            "windSpeed": 3.01
+                            "windDirection": 90.24,
+                            "windGust": 6.46,
+                            "windSpeed": 3.23
                         }
                     },
                     {
                         "startTime": "2022-03-10T16:00:00Z",
                         "values": {
-                            "cloudCover": 25.96,
-                            "dewPoint": -1.38,
-                            "humidity": 46.64,
-                            "temperature": 9.41,
-                            "temperatureApparent": 9.41,
-                            "weatherCode": 1100,
-                            "windDirection": 118.54,
-                            "windGust": 6.01,
-                            "windSpeed": 2.73
+                            "cloudCover": 8.09,
+                            "dewPoint": -1.33,
+                            "humidity": 45.9,
+                            "temperature": 9.65,
+                            "temperatureApparent": 9.65,
+                            "weatherCode": 1000,
+                            "windDirection": 86.47,
+                            "windGust": 6.4,
+                            "windSpeed": 2.88
                         }
                     },
                     {
                         "startTime": "2022-03-10T17:00:00Z",
                         "values": {
-                            "cloudCover": 16.58,
-                            "dewPoint": -0.49,
-                            "humidity": 55.83,
-                            "temperature": 7.57,
-                            "temperatureApparent": 7.57,
-                            "weatherCode": 1100,
-                            "windDirection": 92.01,
-                            "windGust": 4.74,
-                            "windSpeed": 2.1
+                            "cloudCover": 0,
+                            "dewPoint": -1.8,
+                            "humidity": 50.87,
+                            "temperature": 7.65,
+                            "temperatureApparent": 7.65,
+                            "weatherCode": 1000,
+                            "windDirection": 58.57,
+                            "windGust": 5.3,
+                            "windSpeed": 2.43
                         }
                     },
                     {
                         "startTime": "2022-03-10T18:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -1,
-                            "humidity": 62.01,
-                            "temperature": 5.66,
-                            "temperatureApparent": 5.66,
+                            "dewPoint": -1.97,
+                            "humidity": 56.57,
+                            "temperature": 5.85,
+                            "temperatureApparent": 5.85,
                             "weatherCode": 1000,
-                            "windDirection": 93.63,
-                            "windGust": 4.23,
-                            "windSpeed": 2.05
+                            "windDirection": 87.4,
+                            "windGust": 4.64,
+                            "windSpeed": 2.1
                         }
                     },
                     {
                         "startTime": "2022-03-10T19:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -2.41,
-                            "humidity": 60.88,
-                            "temperature": 4.52,
-                            "temperatureApparent": 4.52,
+                            "dewPoint": -2.81,
+                            "humidity": 59.24,
+                            "temperature": 4.51,
+                            "temperatureApparent": 4.51,
                             "weatherCode": 1000,
-                            "windDirection": 93.35,
-                            "windGust": 3.67,
-                            "windSpeed": 1.96
+                            "windDirection": 106.32,
+                            "windGust": 4.2,
+                            "windSpeed": 2.02
                         }
                     },
                     {
                         "startTime": "2022-03-10T20:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.34,
-                            "humidity": 60.87,
-                            "temperature": 3.49,
-                            "temperatureApparent": 1.99,
+                            "dewPoint": -3.91,
+                            "humidity": 57.52,
+                            "temperature": 3.77,
+                            "temperatureApparent": 2.09,
                             "weatherCode": 1000,
-                            "windDirection": 100.42,
-                            "windGust": 3.56,
-                            "windSpeed": 1.67
+                            "windDirection": 106.36,
+                            "windGust": 3.74,
+                            "windSpeed": 1.85
                         }
                     },
                     {
                         "startTime": "2022-03-10T21:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.55,
-                            "humidity": 65.27,
-                            "temperature": 2.12,
-                            "temperatureApparent": 0.76,
+                            "dewPoint": -3.87,
+                            "humidity": 63.44,
+                            "temperature": 2.4,
+                            "temperatureApparent": 0.63,
                             "weatherCode": 1000,
-                            "windDirection": 111.57,
-                            "windGust": 3.02,
-                            "windSpeed": 1.42
+                            "windDirection": 114.63,
+                            "windGust": 3.27,
+                            "windSpeed": 1.74
                         }
                     },
                     {
                         "startTime": "2022-03-10T22:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.63,
-                            "humidity": 71.6,
-                            "temperature": 0.78,
-                            "temperatureApparent": 0.78,
+                            "dewPoint": -3.61,
+                            "humidity": 68.73,
+                            "temperature": 1.33,
+                            "temperatureApparent": -0.3,
                             "weatherCode": 1000,
-                            "windDirection": 113.29,
-                            "windGust": 2.42,
-                            "windSpeed": 1.18
+                            "windDirection": 118.74,
+                            "windGust": 2.91,
+                            "windSpeed": 1.53
                         }
                     },
                     {
                         "startTime": "2022-03-10T23:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.36,
-                            "humidity": 80.03,
-                            "temperature": -0.23,
-                            "temperatureApparent": -0.23,
+                            "dewPoint": -3.57,
+                            "humidity": 74.97,
+                            "temperature": 0.23,
+                            "temperatureApparent": 0.23,
                             "weatherCode": 1000,
-                            "windDirection": 113.6,
-                            "windGust": 1.91,
-                            "windSpeed": 0.79
+                            "windDirection": 120.07,
+                            "windGust": 2.6,
+                            "windSpeed": 0.98
                         }
                     },
                     {
                         "startTime": "2022-03-11T00:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.57,
-                            "humidity": 84.07,
-                            "temperature": -0.97,
-                            "temperatureApparent": -0.97,
+                            "dewPoint": -3.31,
+                            "humidity": 82.82,
+                            "temperature": -0.67,
+                            "temperatureApparent": -0.67,
                             "weatherCode": 1000,
-                            "windDirection": 114.26,
-                            "windGust": 1.19,
-                            "windSpeed": 0.81
+                            "windDirection": 114.17,
+                            "windGust": 1.54,
+                            "windSpeed": 0.87
                         }
                     },
                     {
                         "startTime": "2022-03-11T01:00:00Z",
                         "values": {
-                            "cloudCover": 2.34,
-                            "dewPoint": -4.74,
-                            "humidity": 82.39,
-                            "temperature": -1.78,
-                            "temperatureApparent": -1.78,
+                            "cloudCover": 0,
+                            "dewPoint": -4.17,
+                            "humidity": 84.52,
+                            "temperature": -1.52,
+                            "temperatureApparent": -1.52,
                             "weatherCode": 1000,
-                            "windDirection": 93.61,
-                            "windGust": 1.25,
-                            "windSpeed": 0.72
+                            "windDirection": 93.54,
+                            "windGust": 1.23,
+                            "windSpeed": 0.79
                         }
                     },
                     {
                         "startTime": "2022-03-11T02:00:00Z",
                         "values": {
-                            "cloudCover": 14.31,
-                            "dewPoint": -5.04,
-                            "humidity": 78.65,
-                            "temperature": -2.43,
-                            "temperatureApparent": -2.43,
-                            "weatherCode": 1100,
-                            "windDirection": 58.67,
-                            "windGust": 1.18,
-                            "windSpeed": 0.67
+                            "cloudCover": 0,
+                            "dewPoint": -4.75,
+                            "humidity": 78.76,
+                            "temperature": -2.05,
+                            "temperatureApparent": -2.05,
+                            "weatherCode": 1000,
+                            "windDirection": 55.59,
+                            "windGust": 1.32,
+                            "windSpeed": 0.74
                         }
                     },
                     {
                         "startTime": "2022-03-11T03:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -6.45,
-                            "humidity": 76.12,
-                            "temperature": -2.76,
-                            "temperatureApparent": -2.76,
+                            "dewPoint": -6.56,
+                            "humidity": 73.83,
+                            "temperature": -2.49,
+                            "temperatureApparent": -2.49,
                             "weatherCode": 1000,
-                            "windDirection": 33.77,
-                            "windGust": 1.46,
-                            "windSpeed": 0.88
+                            "windDirection": 24.74,
+                            "windGust": 1.33,
+                            "windSpeed": 0.85
                         }
                     },
                     {
                         "startTime": "2022-03-11T04:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.64,
-                            "humidity": 65.05,
-                            "temperature": -2.95,
-                            "temperatureApparent": -2.95,
+                            "dewPoint": -8.79,
+                            "humidity": 64.32,
+                            "temperature": -2.91,
+                            "temperatureApparent": -2.91,
                             "weatherCode": 1000,
-                            "windDirection": 19.02,
-                            "windGust": 1.82,
-                            "windSpeed": 1.09
+                            "windDirection": 12.16,
+                            "windGust": 1.77,
+                            "windSpeed": 1.07
                         }
                     },
                     {
                         "startTime": "2022-03-11T05:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.2,
-                            "humidity": 59.31,
-                            "temperature": -3.53,
-                            "temperatureApparent": -3.53,
+                            "dewPoint": -10.3,
+                            "humidity": 58.52,
+                            "temperature": -3.4,
+                            "temperatureApparent": -3.4,
                             "weatherCode": 1000,
-                            "windDirection": 7.05,
-                            "windGust": 1.97,
-                            "windSpeed": 1.12
+                            "windDirection": 5.49,
+                            "windGust": 1.74,
+                            "windSpeed": 1.06
                         }
                     },
                     {
                         "startTime": "2022-03-11T06:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.5,
-                            "humidity": 61.03,
-                            "temperature": -4.22,
-                            "temperatureApparent": -4.22,
+                            "dewPoint": -10.45,
+                            "humidity": 59.8,
+                            "temperature": -3.9,
+                            "temperatureApparent": -3.9,
                             "weatherCode": 1000,
-                            "windDirection": 13.52,
-                            "windGust": 1.97,
-                            "windSpeed": 1.13
+                            "windDirection": 4.02,
+                            "windGust": 1.77,
+                            "windSpeed": 1.06
                         }
                     },
                     {
                         "startTime": "2022-03-11T07:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.07,
-                            "humidity": 59.78,
-                            "temperature": -3.45,
-                            "temperatureApparent": -3.45,
+                            "dewPoint": -9.84,
+                            "humidity": 58.76,
+                            "temperature": -3.07,
+                            "temperatureApparent": -3.07,
                             "weatherCode": 1000,
-                            "windDirection": 5.19,
-                            "windGust": 1.96,
-                            "windSpeed": 0.96
+                            "windDirection": 7.64,
+                            "windGust": 1.63,
+                            "windSpeed": 0.93
                         }
                     },
                     {
                         "startTime": "2022-03-11T08:00:00Z",
                         "values": {
-                            "cloudCover": 3.84,
-                            "dewPoint": -10.2,
-                            "humidity": 52.1,
-                            "temperature": -1.51,
-                            "temperatureApparent": -1.51,
+                            "cloudCover": 0,
+                            "dewPoint": -10.02,
+                            "humidity": 50.71,
+                            "temperature": -0.96,
+                            "temperatureApparent": -0.96,
                             "weatherCode": 1000,
-                            "windDirection": 29.16,
-                            "windGust": 2.35,
-                            "windSpeed": 1.09
+                            "windDirection": 30.64,
+                            "windGust": 2.3,
+                            "windSpeed": 1.14
                         }
                     },
                     {
                         "startTime": "2022-03-11T09:00:00Z",
                         "values": {
-                            "cloudCover": 7.71,
-                            "dewPoint": -9.32,
-                            "humidity": 47.56,
-                            "temperature": 0.62,
-                            "temperatureApparent": 0.62,
+                            "cloudCover": 0,
+                            "dewPoint": -9.37,
+                            "humidity": 45.74,
+                            "temperature": 1.05,
+                            "temperatureApparent": 1.05,
                             "weatherCode": 1000,
-                            "windDirection": 66.67,
-                            "windGust": 3.3,
-                            "windSpeed": 1.22
+                            "windDirection": 74.71,
+                            "windGust": 3.42,
+                            "windSpeed": 1.32
                         }
                     },
                     {
                         "startTime": "2022-03-11T10:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.3,
-                            "humidity": 44.17,
-                            "temperature": 2.73,
-                            "temperatureApparent": 1.55,
+                            "dewPoint": -8.61,
+                            "humidity": 41.76,
+                            "temperature": 3.15,
+                            "temperatureApparent": 1.08,
                             "weatherCode": 1000,
-                            "windDirection": 88.28,
-                            "windGust": 3.44,
-                            "windSpeed": 1.36
+                            "windDirection": 90.69,
+                            "windGust": 4.45,
+                            "windSpeed": 2.1
                         }
                     },
                     {
                         "startTime": "2022-03-11T11:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.63,
-                            "humidity": 37.09,
-                            "temperature": 4.89,
-                            "temperatureApparent": 4.89,
+                            "dewPoint": -8.65,
+                            "humidity": 36.05,
+                            "temperature": 5.25,
+                            "temperatureApparent": 5.25,
                             "weatherCode": 1000,
-                            "windDirection": 101.17,
-                            "windGust": 4.96,
-                            "windSpeed": 2.34
+                            "windDirection": 103.88,
+                            "windGust": 5.9,
+                            "windSpeed": 3.01
                         }
                     },
                     {
                         "startTime": "2022-03-11T12:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.27,
-                            "humidity": 33.82,
-                            "temperature": 6.56,
-                            "temperatureApparent": 6.56,
+                            "dewPoint": -7.71,
+                            "humidity": 33.93,
+                            "temperature": 7.05,
+                            "temperatureApparent": 7.05,
                             "weatherCode": 1000,
-                            "windDirection": 113.24,
-                            "windGust": 7.4,
-                            "windSpeed": 3.69
+                            "windDirection": 114.8,
+                            "windGust": 8.2,
+                            "windSpeed": 4.12
                         }
                     },
                     {
                         "startTime": "2022-03-11T13:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -6.98,
-                            "humidity": 34.19,
-                            "temperature": 7.68,
-                            "temperatureApparent": 7.68,
+                            "dewPoint": -8.94,
+                            "humidity": 27.85,
+                            "temperature": 8.66,
+                            "temperatureApparent": 8.66,
                             "weatherCode": 1000,
-                            "windDirection": 104.02,
-                            "windGust": 8.34,
-                            "windSpeed": 4.17
+                            "windDirection": 118.73,
+                            "windGust": 9.95,
+                            "windSpeed": 5.02
                         }
                     },
                     {
                         "startTime": "2022-03-11T14:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.15,
-                            "humidity": 29.45,
-                            "temperature": 8.8,
-                            "temperatureApparent": 8.8,
+                            "dewPoint": -11.75,
+                            "humidity": 21.35,
+                            "temperature": 9.22,
+                            "temperatureApparent": 9.22,
                             "weatherCode": 1000,
-                            "windDirection": 116.8,
-                            "windGust": 9.35,
-                            "windSpeed": 4.74
+                            "windDirection": 122.3,
+                            "windGust": 11.73,
+                            "windSpeed": 5.96
                         }
                     },
                     {
                         "startTime": "2022-03-11T15:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.15,
-                            "humidity": 25.49,
-                            "temperature": 8.49,
-                            "temperatureApparent": 8.49,
+                            "dewPoint": -12,
+                            "humidity": 22.02,
+                            "temperature": 8.48,
+                            "temperatureApparent": 8.48,
                             "weatherCode": 1000,
-                            "windDirection": 122.99,
-                            "windGust": 11.17,
-                            "windSpeed": 5.65
+                            "windDirection": 121.9,
+                            "windGust": 11.81,
+                            "windSpeed": 5.78
                         }
                     },
                     {
                         "startTime": "2022-03-11T16:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -11.07,
-                            "humidity": 25.83,
-                            "temperature": 7.21,
-                            "temperatureApparent": 7.21,
+                            "dewPoint": -13.32,
+                            "humidity": 21.65,
+                            "temperature": 7.15,
+                            "temperatureApparent": 7.15,
                             "weatherCode": 1000,
-                            "windDirection": 129.4,
-                            "windGust": 11,
-                            "windSpeed": 4.89
+                            "windDirection": 126.15,
+                            "windGust": 11.29,
+                            "windSpeed": 5.2
                         }
                     },
                     {
                         "startTime": "2022-03-11T17:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -11.35,
-                            "humidity": 28.72,
-                            "temperature": 5.35,
-                            "temperatureApparent": 5.35,
+                            "dewPoint": -12.61,
+                            "humidity": 26.07,
+                            "temperature": 5.26,
+                            "temperatureApparent": 5.26,
                             "weatherCode": 1000,
-                            "windDirection": 127.82,
-                            "windGust": 9.43,
-                            "windSpeed": 3.54
+                            "windDirection": 128.84,
+                            "windGust": 10.06,
+                            "windSpeed": 3.45
                         }
                     },
                     {
                         "startTime": "2022-03-11T18:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -11.62,
-                            "humidity": 31.8,
-                            "temperature": 3.29,
-                            "temperatureApparent": 1.22,
+                            "dewPoint": -12.09,
+                            "humidity": 30.59,
+                            "temperature": 3.2,
+                            "temperatureApparent": 1.42,
                             "weatherCode": 1000,
-                            "windDirection": 126,
-                            "windGust": 6.81,
-                            "windSpeed": 2.12
+                            "windDirection": 121.31,
+                            "windGust": 6.38,
+                            "windSpeed": 1.85
                         }
                     },
                     {
                         "startTime": "2022-03-11T19:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.15,
-                            "humidity": 40.78,
-                            "temperature": 1.45,
-                            "temperatureApparent": 1.45,
+                            "dewPoint": -10.54,
+                            "humidity": 39.74,
+                            "temperature": 1.44,
+                            "temperatureApparent": 1.44,
                             "weatherCode": 1000,
-                            "windDirection": 86.79,
-                            "windGust": 3.58,
-                            "windSpeed": 1.19
+                            "windDirection": 83.2,
+                            "windGust": 3.04,
+                            "windSpeed": 0.77
                         }
                     },
                     {
                         "startTime": "2022-03-11T20:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -7.99,
-                            "humidity": 56.44,
-                            "temperature": -0.09,
-                            "temperatureApparent": -0.09,
+                            "dewPoint": -9.14,
+                            "humidity": 51.35,
+                            "temperature": -0.23,
+                            "temperatureApparent": -0.23,
                             "weatherCode": 1000,
-                            "windDirection": 57.85,
-                            "windGust": 2.08,
-                            "windSpeed": 0.82
+                            "windDirection": 69.65,
+                            "windGust": 1.99,
+                            "windSpeed": 0.74
                         }
                     },
                     {
                         "startTime": "2022-03-11T21:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.39,
-                            "humidity": 59.22,
-                            "temperature": -1.13,
-                            "temperatureApparent": -1.13,
+                            "dewPoint": -8.8,
+                            "humidity": 57.03,
+                            "temperature": -1.33,
+                            "temperatureApparent": -1.33,
                             "weatherCode": 1000,
-                            "windDirection": 46.73,
-                            "windGust": 1.79,
-                            "windSpeed": 0.88
+                            "windDirection": 67.31,
+                            "windGust": 1.51,
+                            "windSpeed": 0.68
                         }
                     },
                     {
                         "startTime": "2022-03-11T22:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.57,
-                            "humidity": 59.48,
-                            "temperature": -1.98,
-                            "temperatureApparent": -1.98,
+                            "dewPoint": -8.88,
+                            "humidity": 60.96,
+                            "temperature": -2.2,
+                            "temperatureApparent": -2.2,
                             "weatherCode": 1000,
-                            "windDirection": 51.37,
-                            "windGust": 1.91,
-                            "windSpeed": 0.98
+                            "windDirection": 74.74,
+                            "windGust": 1.84,
+                            "windSpeed": 0.95
                         }
                     },
                     {
                         "startTime": "2022-03-11T23:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.09,
-                            "humidity": 60.02,
-                            "temperature": -2.46,
-                            "temperatureApparent": -2.46,
+                            "dewPoint": -9,
+                            "humidity": 62.89,
+                            "temperature": -2.63,
+                            "temperatureApparent": -2.63,
                             "weatherCode": 1000,
-                            "windDirection": 42.05,
-                            "windGust": 1.98,
-                            "windSpeed": 1.06
+                            "windDirection": 66.15,
+                            "windGust": 1.96,
+                            "windSpeed": 0.99
                         }
                     },
                     {
                         "startTime": "2022-03-12T00:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.46,
-                            "humidity": 60.06,
-                            "temperature": -2.82,
-                            "temperatureApparent": -2.82,
+                            "dewPoint": -9.51,
+                            "humidity": 62.74,
+                            "temperature": -2.9,
+                            "temperatureApparent": -2.9,
                             "weatherCode": 1000,
-                            "windDirection": 29.02,
-                            "windGust": 2.02,
-                            "windSpeed": 1.09
+                            "windDirection": 61.91,
+                            "windGust": 1.95,
+                            "windSpeed": 1.01
                         }
                     },
                     {
                         "startTime": "2022-03-12T01:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.89,
-                            "humidity": 59.96,
-                            "temperature": -3.25,
-                            "temperatureApparent": -3.25,
+                            "dewPoint": -10.36,
+                            "humidity": 60.47,
+                            "temperature": -3.24,
+                            "temperatureApparent": -3.24,
                             "weatherCode": 1000,
-                            "windDirection": 18.06,
-                            "windGust": 2.13,
-                            "windSpeed": 1.15
+                            "windDirection": 58.06,
+                            "windGust": 2.26,
+                            "windSpeed": 1.23
                         }
                     },
                     {
                         "startTime": "2022-03-12T02:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.38,
-                            "humidity": 60.05,
-                            "temperature": -3.84,
-                            "temperatureApparent": -3.84,
+                            "dewPoint": -10.98,
+                            "humidity": 59.88,
+                            "temperature": -3.75,
+                            "temperatureApparent": -3.75,
                             "weatherCode": 1000,
-                            "windDirection": 15.55,
-                            "windGust": 2.11,
-                            "windSpeed": 1.12
+                            "windDirection": 42.58,
+                            "windGust": 2.1,
+                            "windSpeed": 0.7
                         }
                     },
                     {
                         "startTime": "2022-03-12T03:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -10.79,
-                            "humidity": 60.45,
-                            "temperature": -4.4,
-                            "temperatureApparent": -4.4,
+                            "cloudCover": 3.34,
+                            "dewPoint": -11.31,
+                            "humidity": 60.98,
+                            "temperature": -4.29,
+                            "temperatureApparent": -4.29,
                             "weatherCode": 1000,
-                            "windDirection": 11.24,
-                            "windGust": 1.97,
-                            "windSpeed": 1.1
+                            "windDirection": 57.54,
+                            "windGust": 1.33,
+                            "windSpeed": 0.84
                         }
                     },
                     {
                         "startTime": "2022-03-12T04:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -11.1,
-                            "humidity": 60.01,
-                            "temperature": -4.77,
-                            "temperatureApparent": -4.77,
+                            "cloudCover": 5.07,
+                            "dewPoint": -11.43,
+                            "humidity": 62.47,
+                            "temperature": -4.7,
+                            "temperatureApparent": -4.7,
                             "weatherCode": 1000,
-                            "windDirection": 1.92,
-                            "windGust": 2,
-                            "windSpeed": 1.09
+                            "windDirection": 30.58,
+                            "windGust": 1.86,
+                            "windSpeed": 0.81
                         }
                     },
                     {
                         "startTime": "2022-03-12T05:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -11.47,
-                            "humidity": 60.25,
-                            "temperature": -4.88,
-                            "temperatureApparent": -4.88,
-                            "weatherCode": 1000,
-                            "windDirection": 11.66,
-                            "windGust": 1.99,
-                            "windSpeed": 1.12
+                            "cloudCover": 22.28,
+                            "dewPoint": -11.5,
+                            "humidity": 64.9,
+                            "temperature": -5.2,
+                            "temperatureApparent": -5.2,
+                            "weatherCode": 1100,
+                            "windDirection": 33.86,
+                            "windGust": 2.12,
+                            "windSpeed": 1.13
                         }
                     },
                     {
                         "startTime": "2022-03-12T06:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -11.77,
-                            "humidity": 58.96,
-                            "temperature": -4.84,
-                            "temperatureApparent": -4.84,
-                            "weatherCode": 1000,
-                            "windDirection": 10.99,
-                            "windGust": 2.01,
-                            "windSpeed": 1.07
+                            "cloudCover": 56.27,
+                            "dewPoint": -11.72,
+                            "humidity": 62.74,
+                            "temperature": -5.08,
+                            "temperatureApparent": -5.08,
+                            "weatherCode": 1101,
+                            "windDirection": 24.89,
+                            "windGust": 2.02,
+                            "windSpeed": 0.94
                         }
                     },
                     {
                         "startTime": "2022-03-12T07:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -11.39,
-                            "humidity": 53.18,
-                            "temperature": -2.89,
-                            "temperatureApparent": -2.89,
-                            "weatherCode": 1000,
-                            "windDirection": 10.99,
-                            "windGust": 2.37,
-                            "windSpeed": 1.04
+                            "cloudCover": 14.84,
+                            "dewPoint": -11.48,
+                            "humidity": 57.21,
+                            "temperature": -3.7,
+                            "temperatureApparent": -3.7,
+                            "weatherCode": 1100,
+                            "windDirection": 37.92,
+                            "windGust": 1.88,
+                            "windSpeed": 0.85
                         }
                     },
                     {
                         "startTime": "2022-03-12T08:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -11.01,
-                            "humidity": 47.4,
-                            "temperature": -0.95,
-                            "temperatureApparent": -0.95,
+                            "cloudCover": 6.52,
+                            "dewPoint": -12.29,
+                            "humidity": 43.13,
+                            "temperature": -0.77,
+                            "temperatureApparent": -0.77,
                             "weatherCode": 1000,
-                            "windDirection": 58.31,
-                            "windGust": 2.74,
-                            "windSpeed": 1.01
+                            "windDirection": 68.19,
+                            "windGust": 2.21,
+                            "windSpeed": 0.81
                         }
                     },
                     {
                         "startTime": "2022-03-12T09:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -10.64,
-                            "humidity": 41.61,
-                            "temperature": 1,
-                            "temperatureApparent": 1,
+                            "cloudCover": 2.58,
+                            "dewPoint": -11.79,
+                            "humidity": 37.06,
+                            "temperature": 1.41,
+                            "temperatureApparent": 0.01,
                             "weatherCode": 1000,
-                            "windDirection": 58.31,
-                            "windGust": 3.11,
-                            "windSpeed": 0.98
+                            "windDirection": 108.84,
+                            "windGust": 2.98,
+                            "windSpeed": 1.39
                         }
                     },
                     {
                         "startTime": "2022-03-12T10:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -10.7,
-                            "humidity": 36.57,
-                            "temperature": 3.11,
-                            "temperatureApparent": 3.11,
+                            "cloudCover": 0.33,
+                            "dewPoint": -12.09,
+                            "humidity": 30.89,
+                            "temperature": 3.64,
+                            "temperatureApparent": 1.78,
                             "weatherCode": 1000,
-                            "windDirection": 58.31,
-                            "windGust": 4.24,
-                            "windSpeed": 1.7
+                            "windDirection": 114.32,
+                            "windGust": 4.31,
+                            "windSpeed": 1.99
                         }
                     },
                     {
                         "startTime": "2022-03-12T11:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.76,
-                            "humidity": 31.53,
-                            "temperature": 5.22,
-                            "temperatureApparent": 5.22,
+                            "dewPoint": -12.71,
+                            "humidity": 25.5,
+                            "temperature": 5.73,
+                            "temperatureApparent": 5.73,
                             "weatherCode": 1000,
-                            "windDirection": 126.53,
-                            "windGust": 5.38,
-                            "windSpeed": 2.43
+                            "windDirection": 126.99,
+                            "windGust": 5.62,
+                            "windSpeed": 2.72
                         }
                     },
                     {
                         "startTime": "2022-03-12T12:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -10.82,
-                            "humidity": 26.48,
-                            "temperature": 7.33,
-                            "temperatureApparent": 7.33,
+                            "cloudCover": 1.83,
+                            "dewPoint": -11.77,
+                            "humidity": 24.56,
+                            "temperature": 7.35,
+                            "temperatureApparent": 7.35,
                             "weatherCode": 1000,
-                            "windDirection": 126.53,
-                            "windGust": 6.52,
-                            "windSpeed": 3.15
+                            "windDirection": 126.71,
+                            "windGust": 6.45,
+                            "windSpeed": 3.09
                         }
                     },
                     {
                         "startTime": "2022-03-12T13:00:00Z",
                         "values": {
-                            "cloudCover": 0,
-                            "dewPoint": -9.42,
-                            "humidity": 28.09,
-                            "temperature": 8.05,
-                            "temperatureApparent": 8.05,
+                            "cloudCover": 0.46,
+                            "dewPoint": -9.99,
+                            "humidity": 25.99,
+                            "temperature": 8.53,
+                            "temperatureApparent": 8.53,
                             "weatherCode": 1000,
-                            "windDirection": 126.53,
-                            "windGust": 6.46,
+                            "windDirection": 122.12,
+                            "windGust": 6.51,
                             "windSpeed": 3.04
                         }
                     },
@@ -1116,111 +780,111 @@
                         "startTime": "2022-03-12T14:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.03,
-                            "humidity": 29.69,
-                            "temperature": 8.78,
-                            "temperatureApparent": 8.78,
+                            "dewPoint": -8.84,
+                            "humidity": 27.02,
+                            "temperature": 9.22,
+                            "temperatureApparent": 9.22,
                             "weatherCode": 1000,
-                            "windDirection": 115.45,
-                            "windGust": 6.4,
-                            "windSpeed": 2.94
+                            "windDirection": 118.68,
+                            "windGust": 6.39,
+                            "windSpeed": 2.91
                         }
                     },
                     {
                         "startTime": "2022-03-12T15:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -6.63,
-                            "humidity": 31.29,
-                            "temperature": 9.5,
-                            "temperatureApparent": 9.5,
+                            "dewPoint": -7.84,
+                            "humidity": 28.98,
+                            "temperature": 9.25,
+                            "temperatureApparent": 9.25,
                             "weatherCode": 1000,
-                            "windDirection": 115.45,
-                            "windGust": 6.35,
-                            "windSpeed": 2.84
+                            "windDirection": 107.61,
+                            "windGust": 5.78,
+                            "windSpeed": 2.65
                         }
                     },
                     {
                         "startTime": "2022-03-12T16:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -5.44,
-                            "humidity": 42.05,
-                            "temperature": 7.5,
-                            "temperatureApparent": 7.5,
+                            "dewPoint": -5.99,
+                            "humidity": 35.59,
+                            "temperature": 8.28,
+                            "temperatureApparent": 8.28,
                             "weatherCode": 1000,
-                            "windDirection": 115.45,
-                            "windGust": 5,
-                            "windSpeed": 2.33
+                            "windDirection": 69.12,
+                            "windGust": 5.26,
+                            "windSpeed": 2.62
                         }
                     },
                     {
                         "startTime": "2022-03-12T17:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -4.26,
-                            "humidity": 52.8,
-                            "temperature": 5.5,
-                            "temperatureApparent": 5.5,
+                            "dewPoint": -6.01,
+                            "humidity": 41.64,
+                            "temperature": 6.07,
+                            "temperatureApparent": 6.07,
                             "weatherCode": 1000,
-                            "windDirection": 34.43,
-                            "windGust": 3.66,
-                            "windSpeed": 1.83
+                            "windDirection": 40.79,
+                            "windGust": 4.91,
+                            "windSpeed": 1.65
                         }
                     },
                     {
                         "startTime": "2022-03-12T18:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.07,
-                            "humidity": 63.55,
-                            "temperature": 3.51,
-                            "temperatureApparent": 3.51,
+                            "dewPoint": -5.78,
+                            "humidity": 49.62,
+                            "temperature": 3.73,
+                            "temperatureApparent": 3.73,
                             "weatherCode": 1000,
-                            "windDirection": 34.43,
-                            "windGust": 2.31,
-                            "windSpeed": 1.33
+                            "windDirection": 26.44,
+                            "windGust": 2.9,
+                            "windSpeed": 1.1
                         }
                     },
                     {
                         "startTime": "2022-03-12T19:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.69,
-                            "humidity": 66.6,
-                            "temperature": 2.22,
-                            "temperatureApparent": 2.22,
+                            "dewPoint": -5.06,
+                            "humidity": 63.19,
+                            "temperature": 1.34,
+                            "temperatureApparent": 1.34,
                             "weatherCode": 1000,
-                            "windDirection": 34.43,
-                            "windGust": 2.31,
-                            "windSpeed": 1.31
+                            "windDirection": 23.53,
+                            "windGust": 2.1,
+                            "windSpeed": 1.23
                         }
                     },
                     {
                         "startTime": "2022-03-12T20:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -4.31,
-                            "humidity": 69.64,
-                            "temperature": 0.94,
-                            "temperatureApparent": 0.94,
+                            "dewPoint": -5.1,
+                            "humidity": 68.9,
+                            "temperature": 0.18,
+                            "temperatureApparent": 0.18,
                             "weatherCode": 1000,
-                            "windDirection": 13.85,
-                            "windGust": 2.3,
-                            "windSpeed": 1.3
+                            "windDirection": 7.29,
+                            "windGust": 2.22,
+                            "windSpeed": 1.25
                         }
                     },
                     {
                         "startTime": "2022-03-12T21:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -4.94,
-                            "humidity": 72.68,
-                            "temperature": -0.35,
-                            "temperatureApparent": -0.35,
+                            "dewPoint": -5.81,
+                            "humidity": 66.71,
+                            "temperature": -0.23,
+                            "temperatureApparent": -0.23,
                             "weatherCode": 1000,
-                            "windDirection": 13.85,
-                            "windGust": 2.3,
+                            "windDirection": 14.2,
+                            "windGust": 2.28,
                             "windSpeed": 1.29
                         }
                     },
@@ -1228,308 +892,644 @@
                         "startTime": "2022-03-12T22:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -5.93,
-                            "humidity": 69.47,
+                            "dewPoint": -6.62,
+                            "humidity": 65.16,
                             "temperature": -0.84,
                             "temperatureApparent": -0.84,
                             "weatherCode": 1000,
-                            "windDirection": 13.85,
-                            "windGust": 2.21,
-                            "windSpeed": 1.23
+                            "windDirection": 357.46,
+                            "windGust": 2.23,
+                            "windSpeed": 1.22
                         }
                     },
                     {
                         "startTime": "2022-03-12T23:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -6.93,
-                            "humidity": 66.26,
-                            "temperature": -1.33,
-                            "temperatureApparent": -1.33,
+                            "dewPoint": -7.4,
+                            "humidity": 63.62,
+                            "temperature": -1.31,
+                            "temperatureApparent": -1.31,
                             "weatherCode": 1000,
-                            "windDirection": 4.78,
-                            "windGust": 2.13,
-                            "windSpeed": 1.18
+                            "windDirection": 8.77,
+                            "windGust": 2.07,
+                            "windSpeed": 1.17
                         }
                     },
                     {
                         "startTime": "2022-03-13T00:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -7.92,
-                            "humidity": 63.04,
-                            "temperature": -1.82,
-                            "temperatureApparent": -1.82,
+                            "dewPoint": -8.31,
+                            "humidity": 60.57,
+                            "temperature": -1.57,
+                            "temperatureApparent": -1.57,
                             "weatherCode": 1000,
-                            "windDirection": 4.78,
-                            "windGust": 2.04,
-                            "windSpeed": 1.13
+                            "windDirection": 12.45,
+                            "windGust": 2.23,
+                            "windSpeed": 1.27
                         }
                     },
                     {
                         "startTime": "2022-03-13T01:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.45,
-                            "humidity": 61.9,
-                            "temperature": -2.14,
-                            "temperatureApparent": -2.14,
+                            "dewPoint": -8.91,
+                            "humidity": 59.2,
+                            "temperature": -1.92,
+                            "temperatureApparent": -1.92,
                             "weatherCode": 1000,
-                            "windDirection": 4.78,
-                            "windGust": 2.09,
-                            "windSpeed": 1.13
+                            "windDirection": 355.91,
+                            "windGust": 2.21,
+                            "windSpeed": 1.18
                         }
                     },
                     {
                         "startTime": "2022-03-13T02:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8.97,
-                            "humidity": 60.75,
-                            "temperature": -2.46,
-                            "temperatureApparent": -2.46,
+                            "dewPoint": -9.25,
+                            "humidity": 59.82,
+                            "temperature": -2.47,
+                            "temperatureApparent": -2.47,
                             "weatherCode": 1000,
-                            "windDirection": 10.78,
-                            "windGust": 2.14,
-                            "windSpeed": 1.14
+                            "windDirection": 2.57,
+                            "windGust": 2.01,
+                            "windSpeed": 1.18
                         }
                     },
                     {
                         "startTime": "2022-03-13T03:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.5,
-                            "humidity": 59.61,
-                            "temperature": -2.78,
-                            "temperatureApparent": -2.78,
+                            "dewPoint": -9.75,
+                            "humidity": 58.78,
+                            "temperature": -2.83,
+                            "temperatureApparent": -2.83,
                             "weatherCode": 1000,
-                            "windDirection": 10.78,
-                            "windGust": 2.18,
-                            "windSpeed": 1.15
+                            "windDirection": 10.6,
+                            "windGust": 2.1,
+                            "windSpeed": 1.19
                         }
                     },
                     {
                         "startTime": "2022-03-13T04:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.58,
-                            "humidity": 61.63,
-                            "temperature": -3.27,
-                            "temperatureApparent": -3.27,
+                            "dewPoint": -10.01,
+                            "humidity": 60.43,
+                            "temperature": -3.49,
+                            "temperatureApparent": -3.49,
                             "weatherCode": 1000,
-                            "windDirection": 10.78,
-                            "windGust": 2.04,
-                            "windSpeed": 1.11
+                            "windDirection": 1.56,
+                            "windGust": 2.07,
+                            "windSpeed": 1.12
                         }
                     },
                     {
                         "startTime": "2022-03-13T05:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.67,
-                            "humidity": 63.65,
-                            "temperature": -3.75,
-                            "temperatureApparent": -3.75,
+                            "dewPoint": -10.21,
+                            "humidity": 61.94,
+                            "temperature": -3.97,
+                            "temperatureApparent": -3.97,
                             "weatherCode": 1000,
-                            "windDirection": 357.31,
-                            "windGust": 1.9,
-                            "windSpeed": 1.06
+                            "windDirection": 3.2,
+                            "windGust": 1.92,
+                            "windSpeed": 1.08
                         }
                     },
                     {
                         "startTime": "2022-03-13T06:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.76,
-                            "humidity": 65.67,
-                            "temperature": -4.24,
-                            "temperatureApparent": -4.24,
+                            "dewPoint": -10.35,
+                            "humidity": 61.91,
+                            "temperature": -4.05,
+                            "temperatureApparent": -4.05,
                             "weatherCode": 1000,
-                            "windDirection": 357.31,
-                            "windGust": 1.75,
-                            "windSpeed": 1.02
+                            "windDirection": 12.79,
+                            "windGust": 1.95,
+                            "windSpeed": 1.08
                         }
                     },
                     {
                         "startTime": "2022-03-13T07:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -10.7,
-                            "humidity": 50.92,
-                            "temperature": -1.2,
-                            "temperatureApparent": -2.99,
+                            "dewPoint": -10.12,
+                            "humidity": 56.06,
+                            "temperature": -2.32,
+                            "temperatureApparent": -2.32,
                             "weatherCode": 1000,
-                            "windDirection": 125.62,
-                            "windGust": 3.55,
-                            "windSpeed": 2.29
+                            "windDirection": 12.79,
+                            "windGust": 2.11,
+                            "windSpeed": 1.07
                         }
                     },
                     {
                         "startTime": "2022-03-13T08:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -11.63,
-                            "humidity": 36.18,
-                            "temperature": 1.84,
-                            "temperatureApparent": -1.74,
+                            "dewPoint": -9.9,
+                            "humidity": 50.2,
+                            "temperature": -0.58,
+                            "temperatureApparent": -0.58,
                             "weatherCode": 1000,
-                            "windDirection": 125.62,
-                            "windGust": 5.34,
-                            "windSpeed": 3.56
+                            "windDirection": 13.09,
+                            "windGust": 2.26,
+                            "windSpeed": 1.05
                         }
                     },
                     {
                         "startTime": "2022-03-13T09:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -9.99,
-                            "humidity": 36.13,
-                            "temperature": 3.69,
-                            "temperatureApparent": 0.6,
+                            "dewPoint": -9.67,
+                            "humidity": 44.34,
+                            "temperature": 1.15,
+                            "temperatureApparent": 1.15,
                             "weatherCode": 1000,
-                            "windDirection": 127.11,
-                            "windGust": 4.47,
-                            "windSpeed": 3.45
+                            "windDirection": 13.09,
+                            "windGust": 2.42,
+                            "windSpeed": 1.04
                         }
                     },
                     {
                         "startTime": "2022-03-13T10:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -8,
-                            "humidity": 37.31,
-                            "temperature": 5.46,
-                            "temperatureApparent": 5.46,
+                            "dewPoint": -8.69,
+                            "humidity": 41.4,
+                            "temperature": 3.31,
+                            "temperatureApparent": 3.31,
                             "weatherCode": 1000,
-                            "windDirection": 127.47,
-                            "windGust": 3.7,
-                            "windSpeed": 3.18
+                            "windDirection": 13.09,
+                            "windGust": 3.14,
+                            "windSpeed": 1.38
                         }
                     },
                     {
                         "startTime": "2022-03-13T11:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -6.2,
-                            "humidity": 38.18,
-                            "temperature": 7.13,
-                            "temperatureApparent": 7.13,
+                            "dewPoint": -7.71,
+                            "humidity": 38.45,
+                            "temperature": 5.48,
+                            "temperatureApparent": 5.48,
                             "weatherCode": 1000,
-                            "windDirection": 122.22,
-                            "windGust": 3.31,
-                            "windSpeed": 3.04
+                            "windDirection": 111.79,
+                            "windGust": 3.86,
+                            "windSpeed": 1.73
                         }
                     },
                     {
                         "startTime": "2022-03-13T12:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -4.95,
-                            "humidity": 38.53,
-                            "temperature": 8.39,
-                            "temperatureApparent": 8.39,
+                            "dewPoint": -6.73,
+                            "humidity": 35.5,
+                            "temperature": 7.64,
+                            "temperatureApparent": 7.64,
                             "weatherCode": 1000,
-                            "windDirection": 115.15,
-                            "windGust": 3.09,
-                            "windSpeed": 2.88
+                            "windDirection": 111.79,
+                            "windGust": 4.58,
+                            "windSpeed": 2.07
                         }
                     },
                     {
                         "startTime": "2022-03-13T13:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -4.12,
-                            "humidity": 38.83,
-                            "temperature": 9.2,
-                            "temperatureApparent": 9.2,
+                            "dewPoint": -6.67,
+                            "humidity": 34.04,
+                            "temperature": 8.31,
+                            "temperatureApparent": 8.31,
                             "weatherCode": 1000,
-                            "windDirection": 111.52,
-                            "windGust": 2.73,
-                            "windSpeed": 2.58
+                            "windDirection": 111.79,
+                            "windGust": 4.93,
+                            "windSpeed": 2.32
                         }
                     },
                     {
                         "startTime": "2022-03-13T14:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.68,
-                            "humidity": 39.3,
-                            "temperature": 9.51,
-                            "temperatureApparent": 9.51,
+                            "dewPoint": -6.61,
+                            "humidity": 32.58,
+                            "temperature": 8.98,
+                            "temperatureApparent": 8.98,
                             "weatherCode": 1000,
-                            "windDirection": 110.07,
-                            "windGust": 2.83,
-                            "windSpeed": 2.69
+                            "windDirection": 107.9,
+                            "windGust": 5.28,
+                            "windSpeed": 2.57
                         }
                     },
                     {
                         "startTime": "2022-03-13T15:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.47,
-                            "humidity": 40.44,
-                            "temperature": 9.31,
-                            "temperatureApparent": 9.31,
+                            "dewPoint": -6.55,
+                            "humidity": 31.12,
+                            "temperature": 9.65,
+                            "temperatureApparent": 9.65,
                             "weatherCode": 1000,
-                            "windDirection": 111.29,
-                            "windGust": 3,
-                            "windSpeed": 2.58
+                            "windDirection": 107.9,
+                            "windGust": 5.63,
+                            "windSpeed": 2.81
                         }
                     },
                     {
                         "startTime": "2022-03-13T16:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -2.6,
-                            "humidity": 45.82,
-                            "temperature": 8.44,
-                            "temperatureApparent": 8.44,
+                            "dewPoint": -5.82,
+                            "humidity": 38.73,
+                            "temperature": 7.81,
+                            "temperatureApparent": 7.49,
                             "weatherCode": 1000,
-                            "windDirection": 112.06,
-                            "windGust": 3.16,
-                            "windSpeed": 2.03
+                            "windDirection": 107.9,
+                            "windGust": 4.57,
+                            "windSpeed": 2.33
                         }
                     },
                     {
                         "startTime": "2022-03-13T17:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.21,
-                            "humidity": 50.78,
-                            "temperature": 6.29,
-                            "temperatureApparent": 6.29,
+                            "dewPoint": -5.09,
+                            "humidity": 46.35,
+                            "temperature": 5.98,
+                            "temperatureApparent": 5.32,
                             "weatherCode": 1000,
-                            "windDirection": 98.6,
-                            "windGust": 1.99,
-                            "windSpeed": 1.78
+                            "windDirection": 36.41,
+                            "windGust": 3.52,
+                            "windSpeed": 1.84
                         }
                     },
                     {
                         "startTime": "2022-03-13T18:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.53,
-                            "humidity": 54.29,
-                            "temperature": 4.97,
-                            "temperatureApparent": 4.19,
+                            "dewPoint": -4.37,
+                            "humidity": 53.97,
+                            "temperature": 4.14,
+                            "temperatureApparent": 3.16,
                             "weatherCode": 1000,
-                            "windDirection": 81.9,
-                            "windGust": 1.93,
-                            "windSpeed": 1.81
+                            "windDirection": 36.41,
+                            "windGust": 2.46,
+                            "windSpeed": 1.35
                         }
                     },
                     {
                         "startTime": "2022-03-13T19:00:00Z",
                         "values": {
                             "cloudCover": 0,
-                            "dewPoint": -3.75,
-                            "humidity": 56.88,
-                            "temperature": 4.07,
-                            "temperatureApparent": 3.19,
+                            "dewPoint": -4.31,
+                            "humidity": 61.25,
+                            "temperature": 2.68,
+                            "temperatureApparent": 2.03,
                             "weatherCode": 1000,
-                            "windDirection": 80.54,
-                            "windGust": 2.35,
-                            "windSpeed": 1.89
+                            "windDirection": 36.41,
+                            "windGust": 2.33,
+                            "windSpeed": 1.26
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-13T20:00:00Z",
+                        "values": {
+                            "cloudCover": 0,
+                            "dewPoint": -4.25,
+                            "humidity": 68.52,
+                            "temperature": 1.23,
+                            "temperatureApparent": 0.9,
+                            "weatherCode": 1000,
+                            "windDirection": 5.57,
+                            "windGust": 2.21,
+                            "windSpeed": 1.17
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-13T21:00:00Z",
+                        "values": {
+                            "cloudCover": 0,
+                            "dewPoint": -4.19,
+                            "humidity": 75.79,
+                            "temperature": -0.23,
+                            "temperatureApparent": -0.23,
+                            "weatherCode": 1000,
+                            "windDirection": 5.57,
+                            "windGust": 2.08,
+                            "windSpeed": 1.08
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-13T22:00:00Z",
+                        "values": {
+                            "cloudCover": 0,
+                            "dewPoint": -4.55,
+                            "humidity": 75.69,
+                            "temperature": -0.62,
+                            "temperatureApparent": -0.62,
+                            "weatherCode": 1000,
+                            "windDirection": 5.57,
+                            "windGust": 2.11,
+                            "windSpeed": 1.11
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-13T23:00:00Z",
+                        "values": {
+                            "cloudCover": 0,
+                            "dewPoint": -4.91,
+                            "humidity": 75.6,
+                            "temperature": -1.02,
+                            "temperatureApparent": -1.02,
+                            "weatherCode": 1000,
+                            "windDirection": 4.54,
+                            "windGust": 2.15,
+                            "windSpeed": 1.14
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T00:00:00Z",
+                        "values": {
+                            "cloudCover": 0,
+                            "dewPoint": -5.27,
+                            "humidity": 75.5,
+                            "temperature": -1.41,
+                            "temperatureApparent": -1.41,
+                            "weatherCode": 1000,
+                            "windDirection": 4.54,
+                            "windGust": 2.18,
+                            "windSpeed": 1.17
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T01:00:00Z",
+                        "values": {
+                            "cloudCover": 5.7,
+                            "dewPoint": -5.55,
+                            "humidity": 75.33,
+                            "temperature": -1.72,
+                            "temperatureApparent": -1.72,
+                            "weatherCode": 1000,
+                            "windDirection": 4.54,
+                            "windGust": 2.19,
+                            "windSpeed": 1.16
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T02:00:00Z",
+                        "values": {
+                            "cloudCover": 11.4,
+                            "dewPoint": -5.83,
+                            "humidity": 75.15,
+                            "temperature": -2.03,
+                            "temperatureApparent": -2.03,
+                            "weatherCode": 1000,
+                            "windDirection": 359.28,
+                            "windGust": 2.2,
+                            "windSpeed": 1.15
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T03:00:00Z",
+                        "values": {
+                            "cloudCover": 17.1,
+                            "dewPoint": -6.11,
+                            "humidity": 74.98,
+                            "temperature": -2.34,
+                            "temperatureApparent": -2.34,
+                            "weatherCode": 1100,
+                            "windDirection": 359.28,
+                            "windGust": 2.2,
+                            "windSpeed": 1.15
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T04:00:00Z",
+                        "values": {
+                            "cloudCover": 37.5,
+                            "dewPoint": -6.38,
+                            "humidity": 75.26,
+                            "temperature": -2.67,
+                            "temperatureApparent": -2.67,
+                            "weatherCode": 1101,
+                            "windDirection": 359.28,
+                            "windGust": 2.19,
+                            "windSpeed": 1.1
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T05:00:00Z",
+                        "values": {
+                            "cloudCover": 57.89,
+                            "dewPoint": -6.64,
+                            "humidity": 75.54,
+                            "temperature": -3,
+                            "temperatureApparent": -3,
+                            "weatherCode": 1101,
+                            "windDirection": 4.14,
+                            "windGust": 2.17,
+                            "windSpeed": 1.05
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T06:00:00Z",
+                        "values": {
+                            "cloudCover": 78.29,
+                            "dewPoint": -6.9,
+                            "humidity": 75.83,
+                            "temperature": -3.33,
+                            "temperatureApparent": -3.33,
+                            "weatherCode": 1001,
+                            "windDirection": 4.14,
+                            "windGust": 2.15,
+                            "windSpeed": 1
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T07:00:00Z",
+                        "values": {
+                            "cloudCover": 39.14,
+                            "dewPoint": -6.79,
+                            "humidity": 60.92,
+                            "temperature": 0.28,
+                            "temperatureApparent": -0.36,
+                            "weatherCode": 1101,
+                            "windDirection": 89.74,
+                            "windGust": 2.33,
+                            "windSpeed": 1.35
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T08:00:00Z",
+                        "values": {
+                            "cloudCover": 0,
+                            "dewPoint": -6.68,
+                            "humidity": 46.01,
+                            "temperature": 3.89,
+                            "temperatureApparent": 2.62,
+                            "weatherCode": 1000,
+                            "windDirection": 89.74,
+                            "windGust": 2.51,
+                            "windSpeed": 1.69
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T09:00:00Z",
+                        "values": {
+                            "cloudCover": 1.37,
+                            "dewPoint": -6.54,
+                            "humidity": 40.5,
+                            "temperature": 5.88,
+                            "temperatureApparent": 5.88,
+                            "weatherCode": 1000,
+                            "windDirection": 110.92,
+                            "windGust": 2.84,
+                            "windSpeed": 1.96
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T10:00:00Z",
+                        "values": {
+                            "cloudCover": 6.75,
+                            "dewPoint": -6.41,
+                            "humidity": 36.07,
+                            "temperature": 7.71,
+                            "temperatureApparent": 7.71,
+                            "weatherCode": 1000,
+                            "windDirection": 103.97,
+                            "windGust": 2.77,
+                            "windSpeed": 2.03
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T11:00:00Z",
+                        "values": {
+                            "cloudCover": 24.6,
+                            "dewPoint": -6.21,
+                            "humidity": 32.69,
+                            "temperature": 9.4,
+                            "temperatureApparent": 9.4,
+                            "weatherCode": 1100,
+                            "windDirection": 91.83,
+                            "windGust": 2.84,
+                            "windSpeed": 2.11
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T12:00:00Z",
+                        "values": {
+                            "cloudCover": 37.18,
+                            "dewPoint": -5.84,
+                            "humidity": 30.94,
+                            "temperature": 10.66,
+                            "temperatureApparent": 10.66,
+                            "weatherCode": 1101,
+                            "windDirection": 97.65,
+                            "windGust": 3.01,
+                            "windSpeed": 2.2
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T13:00:00Z",
+                        "values": {
+                            "cloudCover": 98.73,
+                            "dewPoint": -5.45,
+                            "humidity": 30.43,
+                            "temperature": 11.37,
+                            "temperatureApparent": 11.37,
+                            "weatherCode": 1001,
+                            "windDirection": 108.83,
+                            "windGust": 2.97,
+                            "windSpeed": 2.21
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T14:00:00Z",
+                        "values": {
+                            "cloudCover": 86.06,
+                            "dewPoint": -5.1,
+                            "humidity": 30.18,
+                            "temperature": 11.9,
+                            "temperatureApparent": 11.9,
+                            "weatherCode": 1001,
+                            "windDirection": 91.66,
+                            "windGust": 3.2,
+                            "windSpeed": 2.27
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T15:00:00Z",
+                        "values": {
+                            "cloudCover": 90.7,
+                            "dewPoint": -4.67,
+                            "humidity": 31.32,
+                            "temperature": 11.85,
+                            "temperatureApparent": 11.85,
+                            "weatherCode": 1001,
+                            "windDirection": 82.06,
+                            "windGust": 3.32,
+                            "windSpeed": 2.34
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T16:00:00Z",
+                        "values": {
+                            "cloudCover": 74.04,
+                            "dewPoint": -2.97,
+                            "humidity": 38.41,
+                            "temperature": 10.74,
+                            "temperatureApparent": 10.74,
+                            "weatherCode": 1102,
+                            "windDirection": 71.99,
+                            "windGust": 2.94,
+                            "windSpeed": 1.82
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T17:00:00Z",
+                        "values": {
+                            "cloudCover": 79.26,
+                            "dewPoint": -3.21,
+                            "humidity": 45.13,
+                            "temperature": 8.05,
+                            "temperatureApparent": 8.05,
+                            "weatherCode": 1001,
+                            "windDirection": 15.99,
+                            "windGust": 1.58,
+                            "windSpeed": 1.49
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T18:00:00Z",
+                        "values": {
+                            "cloudCover": 82.1,
+                            "dewPoint": -3.46,
+                            "humidity": 48.75,
+                            "temperature": 6.61,
+                            "temperatureApparent": 6.61,
+                            "weatherCode": 1001,
+                            "windDirection": 152.77,
+                            "windGust": 2.89,
+                            "windSpeed": 2.44
+                        }
+                    },
+                    {
+                        "startTime": "2022-03-14T19:00:00Z",
+                        "values": {
+                            "cloudCover": 99.98,
+                            "dewPoint": -3.7,
+                            "humidity": 51.49,
+                            "temperature": 5.56,
+                            "temperatureApparent": 5.56,
+                            "weatherCode": 1001,
+                            "windDirection": 19.52,
+                            "windGust": 2.14,
+                            "windSpeed": 1.94
                         }
                     }
                 ]
