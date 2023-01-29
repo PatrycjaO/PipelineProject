@@ -1,82 +1,82 @@
 {
     "regionCode": "09375",
     "timestamp": {
-        "start": "1675004400",
-        "end": "1675005300"
+        "start": "1675008900",
+        "end": "1675009800"
     },
-    "autarky": "55.506173969445875",
-    "secondaryInFeed": "7548.640403187375",
+    "autarky": "33.01661592206027",
+    "secondaryInFeed": "12415.309182134295",
     "consumptions": {
         "list": [
             {
                 "name": "domestic",
                 "unit": "kWh",
-                "usage": "10575.793498754952",
+                "usage": "10986.588361668835",
                 "numberOfInstallations": "98031",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             },
             {
                 "name": "public",
                 "unit": "kWh",
-                "usage": "514.6793943063401",
+                "usage": "818.8628438426539",
                 "numberOfInstallations": "1724",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             },
             {
                 "name": "industrial",
                 "unit": "kWh",
-                "usage": "5875.117789123891",
+                "usage": "6729.457642462267",
                 "numberOfInstallations": "12508",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             }
         ],
-        "total": "16965.590682185182"
+        "total": "18534.908847973755"
     },
     "feedIn": {
         "list": [
             {
                 "name": "bio",
                 "unit": "kWh",
-                "usage": "830.6808619576565",
+                "usage": "879.4533619576565",
                 "numberOfInstallations": "17",
                 "installedCapacity": "5278.9",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             },
             {
                 "name": "solar",
                 "unit": "kWh",
-                "usage": "3603.207929097253",
+                "usage": "0",
                 "numberOfInstallations": "15130",
                 "installedCapacity": "283369.24499999994",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             },
             {
                 "name": "water",
                 "unit": "kWh",
-                "usage": "680.8985915258279",
+                "usage": "672.6687331924946",
                 "numberOfInstallations": "77",
                 "installedCapacity": "31098.7",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             },
             {
                 "name": "others",
                 "unit": "kWh",
-                "usage": "4254.478906278164",
+                "usage": "4376.813906278163",
                 "numberOfInstallations": "117",
                 "installedCapacity": "6801.1810000000005",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             },
             {
                 "name": "wind",
                 "unit": "kWh",
-                "usage": "47.68399013890731",
+                "usage": "190.6636644111462",
                 "numberOfInstallations": "20",
                 "installedCapacity": "29665.1",
-                "timestamp": "1675004400"
+                "timestamp": "1675008900"
             }
         ],
-        "total": "9416.950278997807"
+        "total": "6119.59966583946"
     },
-    "energyMix": "31.58809119601852",
-    "dailyCo2Savings": "183778.84923931025"
+    "energyMix": "10.538586006338697",
+    "dailyCo2Savings": "190978.7163671462"
 }
